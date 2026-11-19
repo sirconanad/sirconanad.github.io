@@ -1,0 +1,1362 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sirconanad · Letterboxd Highlights</title>
+<style>
+  :root { --bg:#0f1115; --panel:#171a21; --panel2:#1e222b;
+          --text:#e7e9ee; --muted:#9aa3b2; --accent:#7ee08e;
+          --accent2:#3fb950; --late:#f58d8d; --border:#2a2f3a; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,
+         Arial,sans-serif; background:var(--bg); color:var(--text); }
+  .wrap { max-width:1080px; margin:0 auto; padding:28px 20px 60px; }
+  header { border-bottom:1px solid var(--border); padding-bottom:18px;
+           margin-bottom:26px; }
+  h1 { margin:0 0 4px; font-size:28px; }
+  h1 .dot { color:var(--accent2); }
+  .sub { color:var(--muted); }
+  h2 { font-size:20px; margin:40px 0 14px; }
+  h2 small { color:var(--muted); font-weight:400; }
+  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+           gap:12px; }
+  .stat { background:var(--panel); border:1px solid var(--border);
+          border-radius:10px; padding:14px 16px; }
+  .stat-value { font-size:22px; font-weight:700; }
+  .stat-label { color:var(--muted); font-size:12.5px; margin-top:2px; }
+  .stat-value.accent { color:var(--accent); }
+  svg { width:100%; height:auto; }
+  .panel { background:var(--panel); border:1px solid var(--border);
+           border-radius:10px; padding:16px 18px; }
+  .tags { display:grid; gap:7px; }
+  .tag { display:grid; grid-template-columns:1fr 60% 44px; gap:10px;
+         align-items:center; }
+  .tag-name { font-size:13.5px; overflow:hidden; text-overflow:ellipsis;
+              white-space:nowrap; }
+  .tag-bar, .month-bar { background:var(--panel2); border-radius:6px;
+         height:10px; overflow:hidden; }
+  .tag-fill, .month-fill { display:block; height:100%;
+         background:linear-gradient(90deg,var(--accent2),var(--accent));
+         border-radius:6px; }
+  .tag-count, .month-count { text-align:right; color:var(--muted);
+         font-size:12.5px; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; }
+  .chip { background:var(--panel2); border:1px solid var(--border);
+         padding:6px 12px; border-radius:999px; font-size:13.5px; }
+  .chip-star { color:#f7b32b; } .chip em { color:var(--muted);
+         font-style:normal; font-size:12px; }
+  .months { display:grid; gap:4px; }
+  .month { display:grid; grid-template-columns:70px 1fr 40px; gap:10px;
+         align-items:center; font-size:12.5px; }
+  .month-name, .month-count { color:var(--muted); }
+  table { border-collapse:collapse; width:100%; font-size:13.5px; }
+  th, td { padding:7px 10px; border-bottom:1px solid var(--border);
+         text-align:left; white-space:nowrap; }
+  th { position:sticky; top:0; background:var(--panel); }
+  .t-gap { text-align:right; }
+  .gap { font-weight:700; } .gap-ahead { color:var(--accent); }
+  .gap-late { color:var(--late); } .gap-grey { color:var(--muted); }
+  .t-title { white-space:normal; min-width:180px; }
+  .t-tags { color:var(--muted); white-space:normal; max-width:220px; }
+  .scroll { overflow:auto; max-height:520px; border:1px solid var(--border);
+         border-radius:10px; }
+  .subtle { color:var(--muted); font-size:13px; }
+  footer { color:var(--muted); font-size:12.5px; margin-top:48px;
+         border-top:1px solid var(--border); padding-top:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>sirconanad<span class="dot">·</span>cinema</h1>
+  <div class="sub">Letterboxd-Highlights · 2026-11-19</div>
+</header>
+
+<h2>Im Überblick</h2>
+<div class="stats"><div class="stat"><div class="stat-value accent">667</div><div class='stat-label'>Filme seit 2024 (3 Jahre)</div></div><div class="stat"><div class="stat-value accent">3.86</div><div class='stat-label'>Ø Bewertung (5-Skala)</div></div><div class="stat"><div class="stat-value accent">246</div><div class='stat-label'>geherzt / geliked</div></div><div class="stat"><div class="stat-value accent">78</div><div class='stat-label'>Rewatches</div></div><div class="stat"><div class="stat-value accent">17.2 Tage</div><div class='stat-label'>Sneak vor Kinostart</div></div><div class="stat"><div class="stat-value accent">117/126</div><div class='stat-label'>Sneaks mit Kinostart</div></div></div>
+
+<h2>Kinotage <small>(Filme pro Tag seit Anfang des Diaries)</small></h2>
+<div class="panel"><svg xmlns="http://www.w3.org/2000/svg" width="2107" height="122" viewBox="0 0 2107 122">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="8" font-family="sans-serif" font-size="11" fill="#767676">Feb</text>
+<text x="96" y="8" font-family="sans-serif" font-size="11" fill="#767676">Mar</text>
+<text x="166" y="8" font-family="sans-serif" font-size="11" fill="#767676">Apr</text>
+<text x="222" y="8" font-family="sans-serif" font-size="11" fill="#767676">May</text>
+<text x="278" y="8" font-family="sans-serif" font-size="11" fill="#767676">Jun</text>
+<text x="348" y="8" font-family="sans-serif" font-size="11" fill="#767676">Jul</text>
+<text x="404" y="8" font-family="sans-serif" font-size="11" fill="#767676">Aug</text>
+<text x="474" y="8" font-family="sans-serif" font-size="11" fill="#767676">Sep</text>
+<text x="530" y="8" font-family="sans-serif" font-size="11" fill="#767676">Oct</text>
+<text x="586" y="8" font-family="sans-serif" font-size="11" fill="#767676">Nov</text>
+<text x="656" y="8" font-family="sans-serif" font-size="11" fill="#767676">Dec</text>
+<text x="712" y="8" font-family="sans-serif" font-size="11" fill="#767676">Jan</text>
+<text x="768" y="8" font-family="sans-serif" font-size="11" fill="#767676">Feb</text>
+<text x="824" y="8" font-family="sans-serif" font-size="11" fill="#767676">Mar</text>
+<text x="894" y="8" font-family="sans-serif" font-size="11" fill="#767676">Apr</text>
+<text x="950" y="8" font-family="sans-serif" font-size="11" fill="#767676">May</text>
+<text x="1020" y="8" font-family="sans-serif" font-size="11" fill="#767676">Jun</text>
+<text x="1076" y="8" font-family="sans-serif" font-size="11" fill="#767676">Jul</text>
+<text x="1132" y="8" font-family="sans-serif" font-size="11" fill="#767676">Aug</text>
+<text x="1202" y="8" font-family="sans-serif" font-size="11" fill="#767676">Sep</text>
+<text x="1258" y="8" font-family="sans-serif" font-size="11" fill="#767676">Oct</text>
+<text x="1314" y="8" font-family="sans-serif" font-size="11" fill="#767676">Nov</text>
+<text x="1384" y="8" font-family="sans-serif" font-size="11" fill="#767676">Dec</text>
+<text x="1440" y="8" font-family="sans-serif" font-size="11" fill="#767676">Jan</text>
+<text x="1510" y="8" font-family="sans-serif" font-size="11" fill="#767676">Feb</text>
+<text x="1566" y="8" font-family="sans-serif" font-size="11" fill="#767676">Mar</text>
+<text x="1622" y="8" font-family="sans-serif" font-size="11" fill="#767676">Apr</text>
+<text x="1678" y="8" font-family="sans-serif" font-size="11" fill="#767676">May</text>
+<text x="1748" y="8" font-family="sans-serif" font-size="11" fill="#767676">Jun</text>
+<text x="1804" y="8" font-family="sans-serif" font-size="11" fill="#767676">Jul</text>
+<text x="1860" y="8" font-family="sans-serif" font-size="11" fill="#767676">Aug</text>
+<text x="1930" y="8" font-family="sans-serif" font-size="11" fill="#767676">Sep</text>
+<text x="1986" y="8" font-family="sans-serif" font-size="11" fill="#767676">Oct</text>
+<text x="2056" y="8" font-family="sans-serif" font-size="11" fill="#767676">Nov</text>
+<text x="8" y="21" font-family="sans-serif" font-size="10" text-anchor="end" fill="#767676">S</text>
+<text x="8" y="49" font-family="sans-serif" font-size="10" text-anchor="end" fill="#767676">T</text>
+<text x="8" y="77" font-family="sans-serif" font-size="10" text-anchor="end" fill="#767676">T</text>
+<text x="8" y="105" font-family="sans-serif" font-size="10" text-anchor="end" fill="#767676">S</text>
+<rect x="12" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-01-17</title></rect>
+<rect x="12" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-01-18</title></rect>
+<rect x="12" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-01-19</title></rect>
+<rect x="12" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-01-20</title></rect>
+<rect x="26" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-01-21</title></rect>
+<rect x="26" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-01-22</title></rect>
+<rect x="26" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-01-23</title></rect>
+<rect x="26" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-01-24</title></rect>
+<rect x="26" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-01-25</title></rect>
+<rect x="26" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-01-26</title></rect>
+<rect x="26" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-01-27</title></rect>
+<rect x="40" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-01-28</title></rect>
+<rect x="40" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-01-29</title></rect>
+<rect x="40" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-01-30</title></rect>
+<rect x="40" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-01-31</title></rect>
+<rect x="40" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-01</title></rect>
+<rect x="40" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-02</title></rect>
+<rect x="40" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-03</title></rect>
+<rect x="54" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-04</title></rect>
+<rect x="54" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-05</title></rect>
+<rect x="54" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-06</title></rect>
+<rect x="54" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-07</title></rect>
+<rect x="54" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-08</title></rect>
+<rect x="54" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-09</title></rect>
+<rect x="54" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-10</title></rect>
+<rect x="68" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-11</title></rect>
+<rect x="68" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-12</title></rect>
+<rect x="68" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-13</title></rect>
+<rect x="68" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-14</title></rect>
+<rect x="68" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-15</title></rect>
+<rect x="68" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-16</title></rect>
+<rect x="68" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-17</title></rect>
+<rect x="82" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-18</title></rect>
+<rect x="82" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-19</title></rect>
+<rect x="82" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-20</title></rect>
+<rect x="82" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-21</title></rect>
+<rect x="82" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-22</title></rect>
+<rect x="82" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-23</title></rect>
+<rect x="82" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-24</title></rect>
+<rect x="96" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-25</title></rect>
+<rect x="96" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-26</title></rect>
+<rect x="96" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-27</title></rect>
+<rect x="96" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-28</title></rect>
+<rect x="96" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-02-29</title></rect>
+<rect x="96" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-01</title></rect>
+<rect x="96" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-02</title></rect>
+<rect x="110" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-03</title></rect>
+<rect x="110" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-04</title></rect>
+<rect x="110" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-05</title></rect>
+<rect x="110" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-06</title></rect>
+<rect x="110" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-07</title></rect>
+<rect x="110" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-08</title></rect>
+<rect x="110" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-09</title></rect>
+<rect x="124" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-10</title></rect>
+<rect x="124" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-11</title></rect>
+<rect x="124" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-12</title></rect>
+<rect x="124" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-13</title></rect>
+<rect x="124" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-14</title></rect>
+<rect x="124" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-15</title></rect>
+<rect x="124" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-16</title></rect>
+<rect x="138" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-17</title></rect>
+<rect x="138" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-18</title></rect>
+<rect x="138" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-19</title></rect>
+<rect x="138" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-20</title></rect>
+<rect x="138" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-21</title></rect>
+<rect x="138" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-22</title></rect>
+<rect x="138" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-23</title></rect>
+<rect x="152" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-24</title></rect>
+<rect x="152" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-25</title></rect>
+<rect x="152" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-26</title></rect>
+<rect x="152" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-27</title></rect>
+<rect x="152" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-28</title></rect>
+<rect x="152" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-29</title></rect>
+<rect x="152" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-30</title></rect>
+<rect x="166" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-03-31</title></rect>
+<rect x="166" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-01</title></rect>
+<rect x="166" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-02</title></rect>
+<rect x="166" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-03</title></rect>
+<rect x="166" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-04</title></rect>
+<rect x="166" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-05</title></rect>
+<rect x="166" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-06</title></rect>
+<rect x="180" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-07</title></rect>
+<rect x="180" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-08</title></rect>
+<rect x="180" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-09</title></rect>
+<rect x="180" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-10</title></rect>
+<rect x="180" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-11</title></rect>
+<rect x="180" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-12</title></rect>
+<rect x="180" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-13</title></rect>
+<rect x="194" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-14</title></rect>
+<rect x="194" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-15</title></rect>
+<rect x="194" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-16</title></rect>
+<rect x="194" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-17</title></rect>
+<rect x="194" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-18</title></rect>
+<rect x="194" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-19</title></rect>
+<rect x="194" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-20</title></rect>
+<rect x="208" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-21</title></rect>
+<rect x="208" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-22</title></rect>
+<rect x="208" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-23</title></rect>
+<rect x="208" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-24</title></rect>
+<rect x="208" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-25</title></rect>
+<rect x="208" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-26</title></rect>
+<rect x="208" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-27</title></rect>
+<rect x="222" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-28</title></rect>
+<rect x="222" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-29</title></rect>
+<rect x="222" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-04-30</title></rect>
+<rect x="222" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-01</title></rect>
+<rect x="222" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-02</title></rect>
+<rect x="222" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-03</title></rect>
+<rect x="222" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-04</title></rect>
+<rect x="236" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-05</title></rect>
+<rect x="236" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-06</title></rect>
+<rect x="236" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-07</title></rect>
+<rect x="236" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-08</title></rect>
+<rect x="236" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-09</title></rect>
+<rect x="236" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-10</title></rect>
+<rect x="236" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-11</title></rect>
+<rect x="250" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-12</title></rect>
+<rect x="250" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-13</title></rect>
+<rect x="250" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-14</title></rect>
+<rect x="250" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-15</title></rect>
+<rect x="250" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-16</title></rect>
+<rect x="250" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-17</title></rect>
+<rect x="250" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-18</title></rect>
+<rect x="264" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-19</title></rect>
+<rect x="264" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-20</title></rect>
+<rect x="264" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-21</title></rect>
+<rect x="264" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-22</title></rect>
+<rect x="264" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-23</title></rect>
+<rect x="264" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-24</title></rect>
+<rect x="264" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-25</title></rect>
+<rect x="278" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-26</title></rect>
+<rect x="278" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-27</title></rect>
+<rect x="278" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-28</title></rect>
+<rect x="278" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-29</title></rect>
+<rect x="278" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-30</title></rect>
+<rect x="278" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-05-31</title></rect>
+<rect x="278" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-01</title></rect>
+<rect x="292" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-02</title></rect>
+<rect x="292" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-03</title></rect>
+<rect x="292" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-04</title></rect>
+<rect x="292" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-05</title></rect>
+<rect x="292" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-06</title></rect>
+<rect x="292" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-07</title></rect>
+<rect x="292" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-08</title></rect>
+<rect x="306" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-09</title></rect>
+<rect x="306" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-10</title></rect>
+<rect x="306" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-11</title></rect>
+<rect x="306" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-12</title></rect>
+<rect x="306" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-13</title></rect>
+<rect x="306" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-14</title></rect>
+<rect x="306" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-15</title></rect>
+<rect x="320" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-16</title></rect>
+<rect x="320" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-17</title></rect>
+<rect x="320" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-18</title></rect>
+<rect x="320" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-19</title></rect>
+<rect x="320" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-20</title></rect>
+<rect x="320" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-21</title></rect>
+<rect x="320" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-22</title></rect>
+<rect x="334" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-23</title></rect>
+<rect x="334" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-24</title></rect>
+<rect x="334" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-25</title></rect>
+<rect x="334" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-26</title></rect>
+<rect x="334" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-27</title></rect>
+<rect x="334" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-28</title></rect>
+<rect x="334" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-29</title></rect>
+<rect x="348" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-06-30</title></rect>
+<rect x="348" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-01</title></rect>
+<rect x="348" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-02</title></rect>
+<rect x="348" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-03</title></rect>
+<rect x="348" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-04</title></rect>
+<rect x="348" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-05</title></rect>
+<rect x="348" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-06</title></rect>
+<rect x="362" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-07</title></rect>
+<rect x="362" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-08</title></rect>
+<rect x="362" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-09</title></rect>
+<rect x="362" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-10</title></rect>
+<rect x="362" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-11</title></rect>
+<rect x="362" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-12</title></rect>
+<rect x="362" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-13</title></rect>
+<rect x="376" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-14</title></rect>
+<rect x="376" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-15</title></rect>
+<rect x="376" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-16</title></rect>
+<rect x="376" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-17</title></rect>
+<rect x="376" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-18</title></rect>
+<rect x="376" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-19</title></rect>
+<rect x="376" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-20</title></rect>
+<rect x="390" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-21</title></rect>
+<rect x="390" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-22</title></rect>
+<rect x="390" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-23</title></rect>
+<rect x="390" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-24</title></rect>
+<rect x="390" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-25</title></rect>
+<rect x="390" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-26</title></rect>
+<rect x="390" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-27</title></rect>
+<rect x="404" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-28</title></rect>
+<rect x="404" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-29</title></rect>
+<rect x="404" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-30</title></rect>
+<rect x="404" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-07-31</title></rect>
+<rect x="404" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-01</title></rect>
+<rect x="404" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-02</title></rect>
+<rect x="404" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-03</title></rect>
+<rect x="418" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-04</title></rect>
+<rect x="418" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-05</title></rect>
+<rect x="418" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-06</title></rect>
+<rect x="418" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-07</title></rect>
+<rect x="418" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-08</title></rect>
+<rect x="418" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-09</title></rect>
+<rect x="418" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-10</title></rect>
+<rect x="432" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-11</title></rect>
+<rect x="432" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-12</title></rect>
+<rect x="432" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-13</title></rect>
+<rect x="432" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-14</title></rect>
+<rect x="432" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-15</title></rect>
+<rect x="432" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-16</title></rect>
+<rect x="432" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-17</title></rect>
+<rect x="446" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-18</title></rect>
+<rect x="446" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-19</title></rect>
+<rect x="446" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-20</title></rect>
+<rect x="446" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-21</title></rect>
+<rect x="446" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-22</title></rect>
+<rect x="446" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-23</title></rect>
+<rect x="446" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-24</title></rect>
+<rect x="460" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-25</title></rect>
+<rect x="460" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-26</title></rect>
+<rect x="460" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-27</title></rect>
+<rect x="460" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-28</title></rect>
+<rect x="460" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-29</title></rect>
+<rect x="460" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-30</title></rect>
+<rect x="460" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-08-31</title></rect>
+<rect x="474" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-01</title></rect>
+<rect x="474" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-02</title></rect>
+<rect x="474" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-03</title></rect>
+<rect x="474" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-04</title></rect>
+<rect x="474" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-05</title></rect>
+<rect x="474" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-06</title></rect>
+<rect x="474" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-07</title></rect>
+<rect x="488" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-08</title></rect>
+<rect x="488" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-09</title></rect>
+<rect x="488" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-10</title></rect>
+<rect x="488" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-11</title></rect>
+<rect x="488" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-12</title></rect>
+<rect x="488" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-13</title></rect>
+<rect x="488" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-14</title></rect>
+<rect x="502" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-15</title></rect>
+<rect x="502" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-16</title></rect>
+<rect x="502" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-17</title></rect>
+<rect x="502" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-18</title></rect>
+<rect x="502" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-19</title></rect>
+<rect x="502" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-20</title></rect>
+<rect x="502" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-21</title></rect>
+<rect x="516" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-22</title></rect>
+<rect x="516" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-23</title></rect>
+<rect x="516" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-24</title></rect>
+<rect x="516" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-25</title></rect>
+<rect x="516" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-26</title></rect>
+<rect x="516" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-27</title></rect>
+<rect x="516" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-28</title></rect>
+<rect x="530" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-29</title></rect>
+<rect x="530" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-09-30</title></rect>
+<rect x="530" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-01</title></rect>
+<rect x="530" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-02</title></rect>
+<rect x="530" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-03</title></rect>
+<rect x="530" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-04</title></rect>
+<rect x="530" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-05</title></rect>
+<rect x="544" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-06</title></rect>
+<rect x="544" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-07</title></rect>
+<rect x="544" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-08</title></rect>
+<rect x="544" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-09</title></rect>
+<rect x="544" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-10</title></rect>
+<rect x="544" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-11</title></rect>
+<rect x="544" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-12</title></rect>
+<rect x="558" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-13</title></rect>
+<rect x="558" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-14</title></rect>
+<rect x="558" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-15</title></rect>
+<rect x="558" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-16</title></rect>
+<rect x="558" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-17</title></rect>
+<rect x="558" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-18</title></rect>
+<rect x="558" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-19</title></rect>
+<rect x="572" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-20</title></rect>
+<rect x="572" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-21</title></rect>
+<rect x="572" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-22</title></rect>
+<rect x="572" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-23</title></rect>
+<rect x="572" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-24</title></rect>
+<rect x="572" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-25</title></rect>
+<rect x="572" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-26</title></rect>
+<rect x="586" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-27</title></rect>
+<rect x="586" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-28</title></rect>
+<rect x="586" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-29</title></rect>
+<rect x="586" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-30</title></rect>
+<rect x="586" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-10-31</title></rect>
+<rect x="586" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-01</title></rect>
+<rect x="586" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-02</title></rect>
+<rect x="600" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-03</title></rect>
+<rect x="600" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-04</title></rect>
+<rect x="600" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-05</title></rect>
+<rect x="600" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-06</title></rect>
+<rect x="600" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-07</title></rect>
+<rect x="600" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-08</title></rect>
+<rect x="600" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-09</title></rect>
+<rect x="614" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-10</title></rect>
+<rect x="614" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-11</title></rect>
+<rect x="614" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-12</title></rect>
+<rect x="614" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-13</title></rect>
+<rect x="614" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-14</title></rect>
+<rect x="614" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-15</title></rect>
+<rect x="614" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-16</title></rect>
+<rect x="628" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-17</title></rect>
+<rect x="628" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-18</title></rect>
+<rect x="628" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-19</title></rect>
+<rect x="628" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-20</title></rect>
+<rect x="628" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-21</title></rect>
+<rect x="628" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-22</title></rect>
+<rect x="628" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-23</title></rect>
+<rect x="642" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-24</title></rect>
+<rect x="642" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-25</title></rect>
+<rect x="642" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-26</title></rect>
+<rect x="642" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-27</title></rect>
+<rect x="642" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-28</title></rect>
+<rect x="642" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-29</title></rect>
+<rect x="642" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-11-30</title></rect>
+<rect x="656" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-01</title></rect>
+<rect x="656" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-02</title></rect>
+<rect x="656" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-03</title></rect>
+<rect x="656" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-04</title></rect>
+<rect x="656" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-05</title></rect>
+<rect x="656" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-06</title></rect>
+<rect x="656" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-07</title></rect>
+<rect x="670" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-08</title></rect>
+<rect x="670" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-09</title></rect>
+<rect x="670" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-10</title></rect>
+<rect x="670" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-11</title></rect>
+<rect x="670" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-12</title></rect>
+<rect x="670" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-13</title></rect>
+<rect x="670" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-14</title></rect>
+<rect x="684" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-15</title></rect>
+<rect x="684" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-16</title></rect>
+<rect x="684" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-17</title></rect>
+<rect x="684" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-18</title></rect>
+<rect x="684" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-19</title></rect>
+<rect x="684" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-20</title></rect>
+<rect x="684" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-21</title></rect>
+<rect x="698" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-22</title></rect>
+<rect x="698" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-23</title></rect>
+<rect x="698" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-24</title></rect>
+<rect x="698" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-25</title></rect>
+<rect x="698" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-26</title></rect>
+<rect x="698" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-27</title></rect>
+<rect x="698" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-28</title></rect>
+<rect x="712" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-29</title></rect>
+<rect x="712" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-30</title></rect>
+<rect x="712" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2024-12-31</title></rect>
+<rect x="712" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-01</title></rect>
+<rect x="712" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-02</title></rect>
+<rect x="712" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-03</title></rect>
+<rect x="712" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-04</title></rect>
+<rect x="726" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-05</title></rect>
+<rect x="726" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-06</title></rect>
+<rect x="726" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-07</title></rect>
+<rect x="726" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-08</title></rect>
+<rect x="726" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-09</title></rect>
+<rect x="726" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-10</title></rect>
+<rect x="726" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-11</title></rect>
+<rect x="740" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-12</title></rect>
+<rect x="740" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-13</title></rect>
+<rect x="740" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-14</title></rect>
+<rect x="740" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-15</title></rect>
+<rect x="740" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-16</title></rect>
+<rect x="740" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-17</title></rect>
+<rect x="740" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-18</title></rect>
+<rect x="754" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-19</title></rect>
+<rect x="754" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-20</title></rect>
+<rect x="754" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-21</title></rect>
+<rect x="754" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-22</title></rect>
+<rect x="754" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-23</title></rect>
+<rect x="754" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-24</title></rect>
+<rect x="754" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-25</title></rect>
+<rect x="768" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-26</title></rect>
+<rect x="768" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-27</title></rect>
+<rect x="768" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-28</title></rect>
+<rect x="768" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-29</title></rect>
+<rect x="768" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-30</title></rect>
+<rect x="768" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-01-31</title></rect>
+<rect x="768" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-01</title></rect>
+<rect x="782" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-02</title></rect>
+<rect x="782" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-03</title></rect>
+<rect x="782" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-04</title></rect>
+<rect x="782" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-05</title></rect>
+<rect x="782" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-06</title></rect>
+<rect x="782" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-07</title></rect>
+<rect x="782" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-08</title></rect>
+<rect x="796" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-09</title></rect>
+<rect x="796" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-10</title></rect>
+<rect x="796" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-11</title></rect>
+<rect x="796" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-12</title></rect>
+<rect x="796" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-13</title></rect>
+<rect x="796" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-14</title></rect>
+<rect x="796" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-15</title></rect>
+<rect x="810" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-16</title></rect>
+<rect x="810" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-17</title></rect>
+<rect x="810" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-18</title></rect>
+<rect x="810" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-19</title></rect>
+<rect x="810" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-20</title></rect>
+<rect x="810" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-21</title></rect>
+<rect x="810" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-22</title></rect>
+<rect x="824" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-23</title></rect>
+<rect x="824" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-24</title></rect>
+<rect x="824" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-25</title></rect>
+<rect x="824" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-26</title></rect>
+<rect x="824" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-27</title></rect>
+<rect x="824" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-02-28</title></rect>
+<rect x="824" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-01</title></rect>
+<rect x="838" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-02</title></rect>
+<rect x="838" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-03</title></rect>
+<rect x="838" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-04</title></rect>
+<rect x="838" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-05</title></rect>
+<rect x="838" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-06</title></rect>
+<rect x="838" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-07</title></rect>
+<rect x="838" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-08</title></rect>
+<rect x="852" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-09</title></rect>
+<rect x="852" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-10</title></rect>
+<rect x="852" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-11</title></rect>
+<rect x="852" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-12</title></rect>
+<rect x="852" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-13</title></rect>
+<rect x="852" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-14</title></rect>
+<rect x="852" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-15</title></rect>
+<rect x="866" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-16</title></rect>
+<rect x="866" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-17</title></rect>
+<rect x="866" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-18</title></rect>
+<rect x="866" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-19</title></rect>
+<rect x="866" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-20</title></rect>
+<rect x="866" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-21</title></rect>
+<rect x="866" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-22</title></rect>
+<rect x="880" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-23</title></rect>
+<rect x="880" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-24</title></rect>
+<rect x="880" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-25</title></rect>
+<rect x="880" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-26</title></rect>
+<rect x="880" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-27</title></rect>
+<rect x="880" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-28</title></rect>
+<rect x="880" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-29</title></rect>
+<rect x="894" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-30</title></rect>
+<rect x="894" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-03-31</title></rect>
+<rect x="894" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-01</title></rect>
+<rect x="894" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-02</title></rect>
+<rect x="894" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-03</title></rect>
+<rect x="894" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-04</title></rect>
+<rect x="894" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-05</title></rect>
+<rect x="908" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-06</title></rect>
+<rect x="908" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-07</title></rect>
+<rect x="908" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-08</title></rect>
+<rect x="908" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-09</title></rect>
+<rect x="908" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-10</title></rect>
+<rect x="908" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-11</title></rect>
+<rect x="908" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-12</title></rect>
+<rect x="922" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-13</title></rect>
+<rect x="922" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-14</title></rect>
+<rect x="922" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-15</title></rect>
+<rect x="922" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-16</title></rect>
+<rect x="922" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-17</title></rect>
+<rect x="922" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-18</title></rect>
+<rect x="922" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-19</title></rect>
+<rect x="936" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-20</title></rect>
+<rect x="936" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-21</title></rect>
+<rect x="936" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-22</title></rect>
+<rect x="936" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-23</title></rect>
+<rect x="936" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-24</title></rect>
+<rect x="936" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-25</title></rect>
+<rect x="936" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-26</title></rect>
+<rect x="950" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-27</title></rect>
+<rect x="950" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-28</title></rect>
+<rect x="950" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-29</title></rect>
+<rect x="950" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-04-30</title></rect>
+<rect x="950" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-01</title></rect>
+<rect x="950" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-02</title></rect>
+<rect x="950" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-03</title></rect>
+<rect x="964" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-04</title></rect>
+<rect x="964" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-05</title></rect>
+<rect x="964" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-06</title></rect>
+<rect x="964" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-07</title></rect>
+<rect x="964" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-08</title></rect>
+<rect x="964" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-09</title></rect>
+<rect x="964" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-10</title></rect>
+<rect x="978" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-11</title></rect>
+<rect x="978" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-12</title></rect>
+<rect x="978" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-13</title></rect>
+<rect x="978" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-14</title></rect>
+<rect x="978" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-15</title></rect>
+<rect x="978" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-16</title></rect>
+<rect x="978" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-17</title></rect>
+<rect x="992" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-18</title></rect>
+<rect x="992" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-19</title></rect>
+<rect x="992" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-20</title></rect>
+<rect x="992" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-21</title></rect>
+<rect x="992" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-22</title></rect>
+<rect x="992" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-23</title></rect>
+<rect x="992" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-24</title></rect>
+<rect x="1006" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-25</title></rect>
+<rect x="1006" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-26</title></rect>
+<rect x="1006" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-27</title></rect>
+<rect x="1006" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-28</title></rect>
+<rect x="1006" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-29</title></rect>
+<rect x="1006" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-30</title></rect>
+<rect x="1006" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-05-31</title></rect>
+<rect x="1020" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-01</title></rect>
+<rect x="1020" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-02</title></rect>
+<rect x="1020" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-03</title></rect>
+<rect x="1020" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-04</title></rect>
+<rect x="1020" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-05</title></rect>
+<rect x="1020" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-06</title></rect>
+<rect x="1020" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-07</title></rect>
+<rect x="1034" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-08</title></rect>
+<rect x="1034" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-09</title></rect>
+<rect x="1034" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-10</title></rect>
+<rect x="1034" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-11</title></rect>
+<rect x="1034" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-12</title></rect>
+<rect x="1034" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-13</title></rect>
+<rect x="1034" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-14</title></rect>
+<rect x="1048" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-15</title></rect>
+<rect x="1048" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-16</title></rect>
+<rect x="1048" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-17</title></rect>
+<rect x="1048" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-18</title></rect>
+<rect x="1048" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-19</title></rect>
+<rect x="1048" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-20</title></rect>
+<rect x="1048" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-21</title></rect>
+<rect x="1062" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-22</title></rect>
+<rect x="1062" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-23</title></rect>
+<rect x="1062" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-24</title></rect>
+<rect x="1062" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-25</title></rect>
+<rect x="1062" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-26</title></rect>
+<rect x="1062" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-27</title></rect>
+<rect x="1062" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-28</title></rect>
+<rect x="1076" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-29</title></rect>
+<rect x="1076" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-06-30</title></rect>
+<rect x="1076" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-01</title></rect>
+<rect x="1076" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-02</title></rect>
+<rect x="1076" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-03</title></rect>
+<rect x="1076" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-04</title></rect>
+<rect x="1076" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-05</title></rect>
+<rect x="1090" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-06</title></rect>
+<rect x="1090" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-07</title></rect>
+<rect x="1090" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-08</title></rect>
+<rect x="1090" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-09</title></rect>
+<rect x="1090" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-10</title></rect>
+<rect x="1090" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-11</title></rect>
+<rect x="1090" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-12</title></rect>
+<rect x="1104" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-13</title></rect>
+<rect x="1104" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-14</title></rect>
+<rect x="1104" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-15</title></rect>
+<rect x="1104" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-16</title></rect>
+<rect x="1104" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-17</title></rect>
+<rect x="1104" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-18</title></rect>
+<rect x="1104" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-19</title></rect>
+<rect x="1118" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-20</title></rect>
+<rect x="1118" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-21</title></rect>
+<rect x="1118" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-22</title></rect>
+<rect x="1118" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-23</title></rect>
+<rect x="1118" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-24</title></rect>
+<rect x="1118" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-25</title></rect>
+<rect x="1118" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-26</title></rect>
+<rect x="1132" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-27</title></rect>
+<rect x="1132" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-28</title></rect>
+<rect x="1132" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-29</title></rect>
+<rect x="1132" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-30</title></rect>
+<rect x="1132" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-07-31</title></rect>
+<rect x="1132" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-01</title></rect>
+<rect x="1132" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-02</title></rect>
+<rect x="1146" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-03</title></rect>
+<rect x="1146" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-04</title></rect>
+<rect x="1146" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-05</title></rect>
+<rect x="1146" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-06</title></rect>
+<rect x="1146" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-07</title></rect>
+<rect x="1146" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-08</title></rect>
+<rect x="1146" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-09</title></rect>
+<rect x="1160" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-10</title></rect>
+<rect x="1160" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-11</title></rect>
+<rect x="1160" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-12</title></rect>
+<rect x="1160" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-13</title></rect>
+<rect x="1160" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-14</title></rect>
+<rect x="1160" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-15</title></rect>
+<rect x="1160" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-16</title></rect>
+<rect x="1174" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-17</title></rect>
+<rect x="1174" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-18</title></rect>
+<rect x="1174" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-19</title></rect>
+<rect x="1174" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-20</title></rect>
+<rect x="1174" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-21</title></rect>
+<rect x="1174" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-22</title></rect>
+<rect x="1174" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-23</title></rect>
+<rect x="1188" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-24</title></rect>
+<rect x="1188" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-25</title></rect>
+<rect x="1188" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-26</title></rect>
+<rect x="1188" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-27</title></rect>
+<rect x="1188" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-28</title></rect>
+<rect x="1188" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-29</title></rect>
+<rect x="1188" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-30</title></rect>
+<rect x="1202" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-08-31</title></rect>
+<rect x="1202" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-01</title></rect>
+<rect x="1202" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-02</title></rect>
+<rect x="1202" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-03</title></rect>
+<rect x="1202" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-04</title></rect>
+<rect x="1202" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-05</title></rect>
+<rect x="1202" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-06</title></rect>
+<rect x="1216" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-07</title></rect>
+<rect x="1216" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-08</title></rect>
+<rect x="1216" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-09</title></rect>
+<rect x="1216" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-10</title></rect>
+<rect x="1216" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-11</title></rect>
+<rect x="1216" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-12</title></rect>
+<rect x="1216" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-13</title></rect>
+<rect x="1230" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-14</title></rect>
+<rect x="1230" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-15</title></rect>
+<rect x="1230" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-16</title></rect>
+<rect x="1230" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-17</title></rect>
+<rect x="1230" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-18</title></rect>
+<rect x="1230" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-19</title></rect>
+<rect x="1230" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-20</title></rect>
+<rect x="1244" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-21</title></rect>
+<rect x="1244" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-22</title></rect>
+<rect x="1244" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-23</title></rect>
+<rect x="1244" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-24</title></rect>
+<rect x="1244" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-25</title></rect>
+<rect x="1244" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-26</title></rect>
+<rect x="1244" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-27</title></rect>
+<rect x="1258" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-28</title></rect>
+<rect x="1258" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-29</title></rect>
+<rect x="1258" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-09-30</title></rect>
+<rect x="1258" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-01</title></rect>
+<rect x="1258" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-02</title></rect>
+<rect x="1258" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-03</title></rect>
+<rect x="1258" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-04</title></rect>
+<rect x="1272" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-05</title></rect>
+<rect x="1272" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-06</title></rect>
+<rect x="1272" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-07</title></rect>
+<rect x="1272" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-08</title></rect>
+<rect x="1272" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-09</title></rect>
+<rect x="1272" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-10</title></rect>
+<rect x="1272" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-11</title></rect>
+<rect x="1286" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-12</title></rect>
+<rect x="1286" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-13</title></rect>
+<rect x="1286" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-14</title></rect>
+<rect x="1286" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-15</title></rect>
+<rect x="1286" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-16</title></rect>
+<rect x="1286" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-17</title></rect>
+<rect x="1286" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-18</title></rect>
+<rect x="1300" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-19</title></rect>
+<rect x="1300" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-20</title></rect>
+<rect x="1300" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-21</title></rect>
+<rect x="1300" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-22</title></rect>
+<rect x="1300" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-23</title></rect>
+<rect x="1300" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-24</title></rect>
+<rect x="1300" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-25</title></rect>
+<rect x="1314" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-26</title></rect>
+<rect x="1314" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-27</title></rect>
+<rect x="1314" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-28</title></rect>
+<rect x="1314" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-29</title></rect>
+<rect x="1314" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-30</title></rect>
+<rect x="1314" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-10-31</title></rect>
+<rect x="1314" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-01</title></rect>
+<rect x="1328" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-02</title></rect>
+<rect x="1328" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-03</title></rect>
+<rect x="1328" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-04</title></rect>
+<rect x="1328" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-05</title></rect>
+<rect x="1328" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-06</title></rect>
+<rect x="1328" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-07</title></rect>
+<rect x="1328" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-08</title></rect>
+<rect x="1342" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-09</title></rect>
+<rect x="1342" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-10</title></rect>
+<rect x="1342" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-11</title></rect>
+<rect x="1342" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-12</title></rect>
+<rect x="1342" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-13</title></rect>
+<rect x="1342" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-14</title></rect>
+<rect x="1342" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-15</title></rect>
+<rect x="1356" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-16</title></rect>
+<rect x="1356" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-17</title></rect>
+<rect x="1356" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-18</title></rect>
+<rect x="1356" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-19</title></rect>
+<rect x="1356" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-20</title></rect>
+<rect x="1356" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-21</title></rect>
+<rect x="1356" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-22</title></rect>
+<rect x="1370" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-23</title></rect>
+<rect x="1370" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-24</title></rect>
+<rect x="1370" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-25</title></rect>
+<rect x="1370" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-26</title></rect>
+<rect x="1370" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-27</title></rect>
+<rect x="1370" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-28</title></rect>
+<rect x="1370" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-29</title></rect>
+<rect x="1384" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-11-30</title></rect>
+<rect x="1384" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-01</title></rect>
+<rect x="1384" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-02</title></rect>
+<rect x="1384" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-03</title></rect>
+<rect x="1384" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-04</title></rect>
+<rect x="1384" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-05</title></rect>
+<rect x="1384" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-06</title></rect>
+<rect x="1398" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-07</title></rect>
+<rect x="1398" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-08</title></rect>
+<rect x="1398" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-09</title></rect>
+<rect x="1398" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-10</title></rect>
+<rect x="1398" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-11</title></rect>
+<rect x="1398" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-12</title></rect>
+<rect x="1398" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-13</title></rect>
+<rect x="1412" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-14</title></rect>
+<rect x="1412" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-15</title></rect>
+<rect x="1412" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-16</title></rect>
+<rect x="1412" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-17</title></rect>
+<rect x="1412" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-18</title></rect>
+<rect x="1412" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-19</title></rect>
+<rect x="1412" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-20</title></rect>
+<rect x="1426" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-21</title></rect>
+<rect x="1426" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-22</title></rect>
+<rect x="1426" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-23</title></rect>
+<rect x="1426" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-24</title></rect>
+<rect x="1426" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-25</title></rect>
+<rect x="1426" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-26</title></rect>
+<rect x="1426" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-27</title></rect>
+<rect x="1440" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-28</title></rect>
+<rect x="1440" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-29</title></rect>
+<rect x="1440" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-30</title></rect>
+<rect x="1440" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2025-12-31</title></rect>
+<rect x="1440" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-01</title></rect>
+<rect x="1440" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-02</title></rect>
+<rect x="1440" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-03</title></rect>
+<rect x="1454" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-04</title></rect>
+<rect x="1454" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-05</title></rect>
+<rect x="1454" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-06</title></rect>
+<rect x="1454" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-07</title></rect>
+<rect x="1454" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-08</title></rect>
+<rect x="1454" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-09</title></rect>
+<rect x="1454" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-10</title></rect>
+<rect x="1468" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-11</title></rect>
+<rect x="1468" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-12</title></rect>
+<rect x="1468" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-13</title></rect>
+<rect x="1468" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-14</title></rect>
+<rect x="1468" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-15</title></rect>
+<rect x="1468" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-16</title></rect>
+<rect x="1468" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-17</title></rect>
+<rect x="1482" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-18</title></rect>
+<rect x="1482" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-19</title></rect>
+<rect x="1482" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-20</title></rect>
+<rect x="1482" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-21</title></rect>
+<rect x="1482" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-22</title></rect>
+<rect x="1482" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-23</title></rect>
+<rect x="1482" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-24</title></rect>
+<rect x="1496" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-25</title></rect>
+<rect x="1496" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-26</title></rect>
+<rect x="1496" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-27</title></rect>
+<rect x="1496" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-28</title></rect>
+<rect x="1496" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-29</title></rect>
+<rect x="1496" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-30</title></rect>
+<rect x="1496" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-01-31</title></rect>
+<rect x="1510" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-01</title></rect>
+<rect x="1510" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-02</title></rect>
+<rect x="1510" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-03</title></rect>
+<rect x="1510" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-04</title></rect>
+<rect x="1510" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-05</title></rect>
+<rect x="1510" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-06</title></rect>
+<rect x="1510" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-07</title></rect>
+<rect x="1524" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-08</title></rect>
+<rect x="1524" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-09</title></rect>
+<rect x="1524" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-10</title></rect>
+<rect x="1524" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-11</title></rect>
+<rect x="1524" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-12</title></rect>
+<rect x="1524" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-13</title></rect>
+<rect x="1524" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-14</title></rect>
+<rect x="1538" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-15</title></rect>
+<rect x="1538" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-16</title></rect>
+<rect x="1538" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-17</title></rect>
+<rect x="1538" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-18</title></rect>
+<rect x="1538" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-19</title></rect>
+<rect x="1538" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-20</title></rect>
+<rect x="1538" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-21</title></rect>
+<rect x="1552" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-22</title></rect>
+<rect x="1552" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-23</title></rect>
+<rect x="1552" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-24</title></rect>
+<rect x="1552" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-25</title></rect>
+<rect x="1552" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-26</title></rect>
+<rect x="1552" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-27</title></rect>
+<rect x="1552" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-02-28</title></rect>
+<rect x="1566" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-01</title></rect>
+<rect x="1566" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-02</title></rect>
+<rect x="1566" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-03</title></rect>
+<rect x="1566" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-04</title></rect>
+<rect x="1566" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-05</title></rect>
+<rect x="1566" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-06</title></rect>
+<rect x="1566" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-07</title></rect>
+<rect x="1580" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-08</title></rect>
+<rect x="1580" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-09</title></rect>
+<rect x="1580" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-10</title></rect>
+<rect x="1580" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-11</title></rect>
+<rect x="1580" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-12</title></rect>
+<rect x="1580" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-13</title></rect>
+<rect x="1580" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-14</title></rect>
+<rect x="1594" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-15</title></rect>
+<rect x="1594" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-16</title></rect>
+<rect x="1594" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-17</title></rect>
+<rect x="1594" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-18</title></rect>
+<rect x="1594" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-19</title></rect>
+<rect x="1594" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-20</title></rect>
+<rect x="1594" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-21</title></rect>
+<rect x="1608" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-22</title></rect>
+<rect x="1608" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-23</title></rect>
+<rect x="1608" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-24</title></rect>
+<rect x="1608" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-25</title></rect>
+<rect x="1608" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-26</title></rect>
+<rect x="1608" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-27</title></rect>
+<rect x="1608" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-28</title></rect>
+<rect x="1622" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-29</title></rect>
+<rect x="1622" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-30</title></rect>
+<rect x="1622" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-03-31</title></rect>
+<rect x="1622" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-01</title></rect>
+<rect x="1622" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-02</title></rect>
+<rect x="1622" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-03</title></rect>
+<rect x="1622" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-04</title></rect>
+<rect x="1636" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-05</title></rect>
+<rect x="1636" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-06</title></rect>
+<rect x="1636" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-07</title></rect>
+<rect x="1636" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-08</title></rect>
+<rect x="1636" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-09</title></rect>
+<rect x="1636" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-10</title></rect>
+<rect x="1636" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-11</title></rect>
+<rect x="1650" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-12</title></rect>
+<rect x="1650" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-13</title></rect>
+<rect x="1650" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-14</title></rect>
+<rect x="1650" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-15</title></rect>
+<rect x="1650" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-16</title></rect>
+<rect x="1650" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-17</title></rect>
+<rect x="1650" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-18</title></rect>
+<rect x="1664" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-19</title></rect>
+<rect x="1664" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-20</title></rect>
+<rect x="1664" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-21</title></rect>
+<rect x="1664" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-22</title></rect>
+<rect x="1664" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-23</title></rect>
+<rect x="1664" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-24</title></rect>
+<rect x="1664" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-25</title></rect>
+<rect x="1678" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-26</title></rect>
+<rect x="1678" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-27</title></rect>
+<rect x="1678" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-28</title></rect>
+<rect x="1678" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-29</title></rect>
+<rect x="1678" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-04-30</title></rect>
+<rect x="1678" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-01</title></rect>
+<rect x="1678" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-02</title></rect>
+<rect x="1692" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-03</title></rect>
+<rect x="1692" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-04</title></rect>
+<rect x="1692" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-05</title></rect>
+<rect x="1692" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-06</title></rect>
+<rect x="1692" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-07</title></rect>
+<rect x="1692" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-08</title></rect>
+<rect x="1692" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-09</title></rect>
+<rect x="1706" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-10</title></rect>
+<rect x="1706" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-11</title></rect>
+<rect x="1706" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-12</title></rect>
+<rect x="1706" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-13</title></rect>
+<rect x="1706" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-14</title></rect>
+<rect x="1706" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-15</title></rect>
+<rect x="1706" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-16</title></rect>
+<rect x="1720" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-17</title></rect>
+<rect x="1720" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-18</title></rect>
+<rect x="1720" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-19</title></rect>
+<rect x="1720" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-20</title></rect>
+<rect x="1720" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-21</title></rect>
+<rect x="1720" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-22</title></rect>
+<rect x="1720" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-23</title></rect>
+<rect x="1734" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-24</title></rect>
+<rect x="1734" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-25</title></rect>
+<rect x="1734" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-26</title></rect>
+<rect x="1734" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-27</title></rect>
+<rect x="1734" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-28</title></rect>
+<rect x="1734" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-29</title></rect>
+<rect x="1734" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-30</title></rect>
+<rect x="1748" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-05-31</title></rect>
+<rect x="1748" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-01</title></rect>
+<rect x="1748" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-02</title></rect>
+<rect x="1748" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-03</title></rect>
+<rect x="1748" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-04</title></rect>
+<rect x="1748" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-05</title></rect>
+<rect x="1748" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-06</title></rect>
+<rect x="1762" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-07</title></rect>
+<rect x="1762" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-08</title></rect>
+<rect x="1762" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-09</title></rect>
+<rect x="1762" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-10</title></rect>
+<rect x="1762" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-11</title></rect>
+<rect x="1762" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-12</title></rect>
+<rect x="1762" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-13</title></rect>
+<rect x="1776" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-14</title></rect>
+<rect x="1776" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-15</title></rect>
+<rect x="1776" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-16</title></rect>
+<rect x="1776" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-17</title></rect>
+<rect x="1776" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-18</title></rect>
+<rect x="1776" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-19</title></rect>
+<rect x="1776" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-20</title></rect>
+<rect x="1790" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-21</title></rect>
+<rect x="1790" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-22</title></rect>
+<rect x="1790" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-23</title></rect>
+<rect x="1790" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-24</title></rect>
+<rect x="1790" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-25</title></rect>
+<rect x="1790" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-26</title></rect>
+<rect x="1790" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-27</title></rect>
+<rect x="1804" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-28</title></rect>
+<rect x="1804" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-29</title></rect>
+<rect x="1804" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-06-30</title></rect>
+<rect x="1804" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-01</title></rect>
+<rect x="1804" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-02</title></rect>
+<rect x="1804" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-03</title></rect>
+<rect x="1804" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-04</title></rect>
+<rect x="1818" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-05</title></rect>
+<rect x="1818" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-06</title></rect>
+<rect x="1818" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-07</title></rect>
+<rect x="1818" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-08</title></rect>
+<rect x="1818" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-09</title></rect>
+<rect x="1818" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-10</title></rect>
+<rect x="1818" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-11</title></rect>
+<rect x="1832" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-12</title></rect>
+<rect x="1832" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-13</title></rect>
+<rect x="1832" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-14</title></rect>
+<rect x="1832" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-15</title></rect>
+<rect x="1832" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-16</title></rect>
+<rect x="1832" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-17</title></rect>
+<rect x="1832" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-18</title></rect>
+<rect x="1846" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-19</title></rect>
+<rect x="1846" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-20</title></rect>
+<rect x="1846" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-21</title></rect>
+<rect x="1846" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-22</title></rect>
+<rect x="1846" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-23</title></rect>
+<rect x="1846" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-24</title></rect>
+<rect x="1846" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-25</title></rect>
+<rect x="1860" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-26</title></rect>
+<rect x="1860" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-27</title></rect>
+<rect x="1860" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-28</title></rect>
+<rect x="1860" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-29</title></rect>
+<rect x="1860" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-30</title></rect>
+<rect x="1860" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-07-31</title></rect>
+<rect x="1860" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-01</title></rect>
+<rect x="1874" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-02</title></rect>
+<rect x="1874" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-03</title></rect>
+<rect x="1874" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-04</title></rect>
+<rect x="1874" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-05</title></rect>
+<rect x="1874" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-06</title></rect>
+<rect x="1874" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-07</title></rect>
+<rect x="1874" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-08</title></rect>
+<rect x="1888" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-09</title></rect>
+<rect x="1888" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-10</title></rect>
+<rect x="1888" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-11</title></rect>
+<rect x="1888" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-12</title></rect>
+<rect x="1888" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-13</title></rect>
+<rect x="1888" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-14</title></rect>
+<rect x="1888" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-15</title></rect>
+<rect x="1902" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-16</title></rect>
+<rect x="1902" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-17</title></rect>
+<rect x="1902" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-18</title></rect>
+<rect x="1902" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-19</title></rect>
+<rect x="1902" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-20</title></rect>
+<rect x="1902" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-21</title></rect>
+<rect x="1902" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-22</title></rect>
+<rect x="1916" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-23</title></rect>
+<rect x="1916" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-24</title></rect>
+<rect x="1916" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-25</title></rect>
+<rect x="1916" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-26</title></rect>
+<rect x="1916" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-27</title></rect>
+<rect x="1916" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-28</title></rect>
+<rect x="1916" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-29</title></rect>
+<rect x="1930" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-30</title></rect>
+<rect x="1930" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-08-31</title></rect>
+<rect x="1930" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-01</title></rect>
+<rect x="1930" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-02</title></rect>
+<rect x="1930" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-03</title></rect>
+<rect x="1930" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-04</title></rect>
+<rect x="1930" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-05</title></rect>
+<rect x="1944" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-06</title></rect>
+<rect x="1944" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-07</title></rect>
+<rect x="1944" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-08</title></rect>
+<rect x="1944" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-09</title></rect>
+<rect x="1944" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-10</title></rect>
+<rect x="1944" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-11</title></rect>
+<rect x="1944" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-12</title></rect>
+<rect x="1958" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-13</title></rect>
+<rect x="1958" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-14</title></rect>
+<rect x="1958" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-15</title></rect>
+<rect x="1958" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-16</title></rect>
+<rect x="1958" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-17</title></rect>
+<rect x="1958" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-18</title></rect>
+<rect x="1958" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-19</title></rect>
+<rect x="1972" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-20</title></rect>
+<rect x="1972" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-21</title></rect>
+<rect x="1972" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-22</title></rect>
+<rect x="1972" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-23</title></rect>
+<rect x="1972" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-24</title></rect>
+<rect x="1972" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-25</title></rect>
+<rect x="1972" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-26</title></rect>
+<rect x="1986" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-27</title></rect>
+<rect x="1986" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-28</title></rect>
+<rect x="1986" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-29</title></rect>
+<rect x="1986" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-09-30</title></rect>
+<rect x="1986" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-01</title></rect>
+<rect x="1986" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-02</title></rect>
+<rect x="1986" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-03</title></rect>
+<rect x="2000" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-04</title></rect>
+<rect x="2000" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-05</title></rect>
+<rect x="2000" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-06</title></rect>
+<rect x="2000" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-07</title></rect>
+<rect x="2000" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-08</title></rect>
+<rect x="2000" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-09</title></rect>
+<rect x="2000" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-10</title></rect>
+<rect x="2014" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-11</title></rect>
+<rect x="2014" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-12</title></rect>
+<rect x="2014" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-13</title></rect>
+<rect x="2014" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-14</title></rect>
+<rect x="2014" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-15</title></rect>
+<rect x="2014" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-16</title></rect>
+<rect x="2014" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-17</title></rect>
+<rect x="2028" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-18</title></rect>
+<rect x="2028" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-19</title></rect>
+<rect x="2028" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-20</title></rect>
+<rect x="2028" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-21</title></rect>
+<rect x="2028" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-22</title></rect>
+<rect x="2028" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-23</title></rect>
+<rect x="2028" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-24</title></rect>
+<rect x="2042" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-25</title></rect>
+<rect x="2042" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-26</title></rect>
+<rect x="2042" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-27</title></rect>
+<rect x="2042" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-28</title></rect>
+<rect x="2042" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-29</title></rect>
+<rect x="2042" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-30</title></rect>
+<rect x="2042" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-10-31</title></rect>
+<rect x="2056" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-01</title></rect>
+<rect x="2056" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-02</title></rect>
+<rect x="2056" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-03</title></rect>
+<rect x="2056" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-04</title></rect>
+<rect x="2056" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-05</title></rect>
+<rect x="2056" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-06</title></rect>
+<rect x="2056" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-07</title></rect>
+<rect x="2070" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-08</title></rect>
+<rect x="2070" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-09</title></rect>
+<rect x="2070" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-10</title></rect>
+<rect x="2070" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-11</title></rect>
+<rect x="2070" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-12</title></rect>
+<rect x="2070" y="82" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-13</title></rect>
+<rect x="2070" y="96" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-14</title></rect>
+<rect x="2084" y="12" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-15</title></rect>
+<rect x="2084" y="26" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-16</title></rect>
+<rect x="2084" y="40" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-17</title></rect>
+<rect x="2084" y="54" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-18</title></rect>
+<rect x="2084" y="68" width="11" height="11" rx="2.5" fill="#ebedf0"><title>2026-11-19</title></rect>
+</svg>
+</div>
+
+<h2>Monatliche Aktivität</h2>
+<div class="panel"><div class="months"><div class="month"><span class="month-name">2024-01</span><span class="month-bar"><span class="month-fill" style='width:6%'></span></span><span class='month-count'>4</span></div>
+<div class="month"><span class="month-name">2024-03</span><span class="month-bar"><span class="month-fill" style='width:9%'></span></span><span class='month-count'>6</span></div>
+<div class="month"><span class="month-name">2024-04</span><span class="month-bar"><span class="month-fill" style='width:12%'></span></span><span class='month-count'>8</span></div>
+<div class="month"><span class="month-name">2024-05</span><span class="month-bar"><span class="month-fill" style='width:12%'></span></span><span class='month-count'>8</span></div>
+<div class="month"><span class="month-name">2024-06</span><span class="month-bar"><span class="month-fill" style='width:6%'></span></span><span class='month-count'>4</span></div>
+<div class="month"><span class="month-name">2024-07</span><span class="month-bar"><span class="month-fill" style='width:19%'></span></span><span class='month-count'>13</span></div>
+<div class="month"><span class="month-name">2024-08</span><span class="month-bar"><span class="month-fill" style='width:21%'></span></span><span class='month-count'>14</span></div>
+<div class="month"><span class="month-name">2024-09</span><span class="month-bar"><span class="month-fill" style='width:22%'></span></span><span class='month-count'>15</span></div>
+<div class="month"><span class="month-name">2024-10</span><span class="month-bar"><span class="month-fill" style='width:6%'></span></span><span class='month-count'>4</span></div>
+<div class="month"><span class="month-name">2024-11</span><span class="month-bar"><span class="month-fill" style='width:21%'></span></span><span class='month-count'>14</span></div>
+<div class="month"><span class="month-name">2024-12</span><span class="month-bar"><span class="month-fill" style='width:21%'></span></span><span class='month-count'>14</span></div>
+<div class="month"><span class="month-name">2025-01</span><span class="month-bar"><span class="month-fill" style='width:21%'></span></span><span class='month-count'>14</span></div>
+<div class="month"><span class="month-name">2025-02</span><span class="month-bar"><span class="month-fill" style='width:3%'></span></span><span class='month-count'>1</span></div>
+<div class="month"><span class="month-name">2025-03</span><span class="month-bar"><span class="month-fill" style='width:18%'></span></span><span class='month-count'>12</span></div>
+<div class="month"><span class="month-name">2025-04</span><span class="month-bar"><span class="month-fill" style='width:12%'></span></span><span class='month-count'>8</span></div>
+<div class="month"><span class="month-name">2025-05</span><span class="month-bar"><span class="month-fill" style='width:13%'></span></span><span class='month-count'>9</span></div>
+<div class="month"><span class="month-name">2025-06</span><span class="month-bar"><span class="month-fill" style='width:51%'></span></span><span class='month-count'>35</span></div>
+<div class="month"><span class="month-name">2025-07</span><span class="month-bar"><span class="month-fill" style='width:24%'></span></span><span class='month-count'>16</span></div>
+<div class="month"><span class="month-name">2025-08</span><span class="month-bar"><span class="month-fill" style='width:26%'></span></span><span class='month-count'>18</span></div>
+<div class="month"><span class="month-name">2025-09</span><span class="month-bar"><span class="month-fill" style='width:21%'></span></span><span class='month-count'>14</span></div>
+<div class="month"><span class="month-name">2025-10</span><span class="month-bar"><span class="month-fill" style='width:28%'></span></span><span class='month-count'>19</span></div>
+<div class="month"><span class="month-name">2025-11</span><span class="month-bar"><span class="month-fill" style='width:28%'></span></span><span class='month-count'>19</span></div>
+<div class="month"><span class="month-name">2025-12</span><span class="month-bar"><span class="month-fill" style='width:15%'></span></span><span class='month-count'>10</span></div>
+<div class="month"><span class="month-name">2026-01</span><span class="month-bar"><span class="month-fill" style='width:65%'></span></span><span class='month-count'>44</span></div>
+<div class="month"><span class="month-name">2026-02</span><span class="month-bar"><span class="month-fill" style='width:16%'></span></span><span class='month-count'>11</span></div>
+<div class="month"><span class="month-name">2026-03</span><span class="month-bar"><span class="month-fill" style='width:47%'></span></span><span class='month-count'>32</span></div>
+<div class="month"><span class="month-name">2026-04</span><span class="month-bar"><span class="month-fill" style='width:43%'></span></span><span class='month-count'>29</span></div>
+<div class="month"><span class="month-name">2026-05</span><span class="month-bar"><span class="month-fill" style='width:49%'></span></span><span class='month-count'>33</span></div>
+<div class="month"><span class="month-name">2026-06</span><span class="month-bar"><span class="month-fill" style='width:57%'></span></span><span class='month-count'>39</span></div>
+<div class="month"><span class="month-name">2026-07</span><span class="month-bar"><span class="month-fill" style='width:46%'></span></span><span class='month-count'>31</span></div>
+<div class="month"><span class="month-name">2026-08</span><span class="month-bar"><span class="month-fill" style='width:51%'></span></span><span class='month-count'>35</span></div>
+<div class="month"><span class="month-name">2026-09</span><span class="month-bar"><span class="month-fill" style='width:100%'></span></span><span class='month-count'>68</span></div>
+<div class="month"><span class="month-name">2026-10</span><span class="month-bar"><span class="month-fill" style='width:62%'></span></span><span class='month-count'>42</span></div>
+<div class="month"><span class="month-name">2026-11</span><span class="month-bar"><span class="month-fill" style='width:35%'></span></span><span class='month-count'>24</span></div></div></div>
+
+<h2>Beliebteste Tags</h2>
+<div class="panel"><div class="tags"><div class="tag"><span class="tag-name">schauburg</span><span class='tag-bar'><span class='tag-fill' style='width:100%'></span></span><span class='tag-count'>361</span></div>
+<div class="tag"><span class="tag-name">cinema</span><span class='tag-bar'><span class='tag-fill' style='width:41%'></span></span><span class='tag-count'>149</span></div>
+<div class="tag"><span class="tag-name">cinema26</span><span class='tag-bar'><span class='tag-fill' style='width:37%'></span></span><span class='tag-count'>135</span></div>
+<div class="tag"><span class="tag-name">original sound</span><span class='tag-bar'><span class='tag-fill' style='width:32%'></span></span><span class='tag-count'>116</span></div>
+<div class="tag"><span class="tag-name">sneak</span><span class='tag-bar'><span class='tag-fill' style='width:18%'></span></span><span class='tag-count'>64</span></div>
+<div class="tag"><span class="tag-name">ov sneak</span><span class='tag-bar'><span class='tag-fill' style='width:17%'></span></span><span class='tag-count'>62</span></div>
+<div class="tag"><span class="tag-name">fantasy filmfest</span><span class='tag-bar'><span class='tag-fill' style='width:14%'></span></span><span class='tag-count'>49</span></div>
+<div class="tag"><span class="tag-name">blu-ray</span><span class='tag-bar'><span class='tag-fill' style='width:13%'></span></span><span class='tag-count'>48</span></div>
+<div class="tag"><span class="tag-name">berlin</span><span class='tag-bar'><span class='tag-fill' style='width:13%'></span></span><span class='tag-count'>46</span></div>
+<div class="tag"><span class="tag-name">zoo palast</span><span class='tag-bar'><span class='tag-fill' style='width:12%'></span></span><span class='tag-count'>44</span></div>
+<div class="tag"><span class="tag-name">german dub</span><span class='tag-bar'><span class='tag-fill' style='width:11%'></span></span><span class='tag-count'>39</span></div>
+<div class="tag"><span class="tag-name">filmfestival max ophül preis</span><span class='tag-bar'><span class='tag-fill' style='width:10%'></span></span><span class='tag-count'>36</span></div></div></div>
+
+<h2>Favoriten <small>(5★ &amp; herz)</small></h2>
+<div class="panel"><div class="chips"><span class="chip"><span class="chip-star">★</span>Coraline <em>2026-11-14</em></span>
+<span class="chip"><span class="chip-star">★</span>Wildwood <em>2026-11-14</em></span>
+<span class="chip"><span class="chip-star">★</span>Wildwood <em>2026-11-13</em></span>
+<span class="chip"><span class="chip-star">★</span>Alice in the Cities <em>2026-11-10</em></span>
+<span class="chip"><span class="chip-star">★</span>Klara and the Sun <em>2026-11-08</em></span>
+<span class="chip"><span class="chip-star">★</span>Wildwood <em>2026-11-06</em></span>
+<span class="chip"><span class="chip-star">★</span>Wild Horse Nine <em>2026-11-04</em></span>
+<span class="chip"><span class="chip-star">★</span>Wildwood <em>2026-10-31</em></span>
+<span class="chip"><span class="chip-star">★</span>Dirty Dancing <em>2026-10-29</em></span>
+<span class="chip"><span class="chip-star">★</span>Klara and the Sun <em>2026-10-26</em></span>
+<span class="chip"><span class="chip-star">★</span>Toy Story 5 <em>2026-10-25</em></span>
+<span class="chip"><span class="chip-star">★</span>Project Hail Mary <em>2026-10-11</em></span><p class="subtle">… und 72 weitere 5-Sterne-Filme.</p></div></div>
+
+<h2>Sneak / OV-Sneak vs. deutscher Kinostart <small>(126 Einträge, Ø 17.2 Tage vorher)</small></h2>
+<div class="scroll"><table>
+  <thead><tr><th>Film</th><th>Jahr</th><th>Gesehen</th>
+  <th>Kinostart (DE)</th><th class="t-gap">Gap</th><th>Tags</th></tr></thead>
+  <tbody><tr><td class='t-title'>OZI: Voice of the Forest</td><td>2023</td><td>2025-10-08</td><td>2026-04-16</td><td class='t-gap'><span class='gap gap-ahead'>+190</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Jane Austen Wrecked My Life</td><td>2024</td><td>2025-08-25</td><td>2025-10-16</td><td class='t-gap'><span class='gap gap-ahead'>+52</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Hear Me: Our Summer</td><td>2024</td><td>2026-02-16</td><td>2026-04-09</td><td class='t-gap'><span class='gap gap-ahead'>+52</span></td><td class='t-tags'>best of cinema, sneak</td></tr>
+<tr><td class='t-title'>Dracula</td><td>2025</td><td>2025-09-15</td><td>2025-10-30</td><td class='t-gap'><span class='gap gap-ahead'>+45</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>A Brief Affair</td><td>2025</td><td>2026-05-18</td><td>2026-07-02</td><td class='t-gap'><span class='gap gap-ahead'>+45</span></td><td class='t-tags'>schauburg, sneak, cinema</td></tr>
+<tr><td class='t-title'>Dust Bunny</td><td>2025</td><td>2026-01-07</td><td>2026-02-19</td><td class='t-gap'><span class='gap gap-ahead'>+43</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>American Sweatshop</td><td>2025</td><td>2026-03-18</td><td>2026-04-30</td><td class='t-gap'><span class='gap gap-ahead'>+43</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Palestine 36</td><td>2025</td><td>2026-04-01</td><td>2026-05-14</td><td class='t-gap'><span class='gap gap-ahead'>+43</span></td><td class='t-tags'>schauburg, ov sneak, cinema</td></tr>
+<tr><td class='t-title'>Rave On</td><td>2025</td><td>2025-06-23</td><td>2025-07-31</td><td class='t-gap'><span class='gap gap-ahead'>+38</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Kill the Jockey</td><td>2024</td><td>2025-08-11</td><td>2025-09-18</td><td class='t-gap'><span class='gap gap-ahead'>+38</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Present Perfect</td><td>2024</td><td>2025-10-06</td><td>2025-11-13</td><td class='t-gap'><span class='gap gap-ahead'>+38</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Second Victims</td><td>2025</td><td>2026-03-30</td><td>2026-05-07</td><td class='t-gap'><span class='gap gap-ahead'>+38</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>LOL 2.0: Anne’s Golden Hour</td><td>2026</td><td>2026-05-11</td><td>2026-06-18</td><td class='t-gap'><span class='gap gap-ahead'>+38</span></td><td class='t-tags'>schauburg, sneak, cinema</td></tr>
+<tr><td class='t-title'>Good Vibes Only</td><td>2026</td><td>2026-06-15</td><td>2026-07-23</td><td class='t-gap'><span class='gap gap-ahead'>+38</span></td><td class='t-tags'>schauburg, cinema, sneak</td></tr>
+<tr><td class='t-title'>Marsupilami</td><td>2025</td><td>2026-07-13</td><td>2026-08-20</td><td class='t-gap'><span class='gap gap-ahead'>+38</span></td><td class='t-tags'>schauburg, cinema, sneak, german dub</td></tr>
+<tr><td class='t-title'>Chopin, a Sonata in Paris</td><td>2025</td><td>2026-09-14</td><td>2026-10-22</td><td class='t-gap'><span class='gap gap-ahead'>+38</span></td><td class='t-tags'>cinema26, schauburg, sneak</td></tr>
+<tr><td class='t-title'>April X</td><td>2025</td><td>2026-11-02</td><td>2026-12-10</td><td class='t-gap'><span class='gap gap-ahead'>+38</span></td><td class='t-tags'>cinema26, sneak, schauburg saal</td></tr>
+<tr><td class='t-title'>Just an Illusion</td><td>2026</td><td>2026-11-09</td><td>2026-12-17</td><td class='t-gap'><span class='gap gap-ahead'>+38</span></td><td class='t-tags'>cinema26, german dub, schauburg saal, sneak</td></tr>
+<tr><td class='t-title'>Reading Lolita in Tehran</td><td>2024</td><td>2025-10-15</td><td>2025-11-20</td><td class='t-gap'><span class='gap gap-ahead'>+36</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Lesbian Space Princess</td><td>2025</td><td>2025-12-17</td><td>2026-01-22</td><td class='t-gap'><span class='gap gap-ahead'>+36</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>The History of Sound</td><td>2025</td><td>2026-03-04</td><td>2026-04-09</td><td class='t-gap'><span class='gap gap-ahead'>+36</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>I Swear</td><td>2025</td><td>2026-04-22</td><td>2026-05-28</td><td class='t-gap'><span class='gap gap-ahead'>+36</span></td><td class='t-tags'>schauburg, ov sneak, cinema</td></tr>
+<tr><td class='t-title'>LifeHack</td><td>2025</td><td>2026-08-05</td><td>2026-09-10</td><td class='t-gap'><span class='gap gap-ahead'>+36</span></td><td class='t-tags'>schauburg, cinema, ov sneak</td></tr>
+<tr><td class='t-title'>Bubbles</td><td>2025</td><td>2025-09-22</td><td>2025-10-23</td><td class='t-gap'><span class='gap gap-ahead'>+31</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>The Money Maker</td><td>2025</td><td>2026-06-29</td><td>2026-07-30</td><td class='t-gap'><span class='gap gap-ahead'>+31</span></td><td class='t-tags'>schauburg, cinema, sneak, german dub</td></tr>
+<tr><td class='t-title'>Sundays</td><td>2025</td><td>2026-09-28</td><td>2026-10-29</td><td class='t-gap'><span class='gap gap-ahead'>+31</span></td><td class='t-tags'>schauburg, cinema26, sneak, german dub</td></tr>
+<tr><td class='t-title'>Agnes &amp; Amir</td><td>2026</td><td>2026-10-19</td><td>2026-11-19</td><td class='t-gap'><span class='gap gap-ahead'>+31</span></td><td class='t-tags'>schauburg, cinema26, original sound, sneak</td></tr>
+<tr><td class='t-title'>Four Mothers</td><td>2024</td><td>2025-06-11</td><td>2025-07-10</td><td class='t-gap'><span class='gap gap-ahead'>+29</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Electric Child</td><td>2024</td><td>2025-07-23</td><td>2025-08-21</td><td class='t-gap'><span class='gap gap-ahead'>+29</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Eddington</td><td>2025</td><td>2025-10-22</td><td>2025-11-20</td><td class='t-gap'><span class='gap gap-ahead'>+29</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Song Sung Blue</td><td>2025</td><td>2025-12-10</td><td>2026-01-08</td><td class='t-gap'><span class='gap gap-ahead'>+29</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Pillion</td><td>2025</td><td>2026-02-25</td><td>2026-03-26</td><td class='t-gap'><span class='gap gap-ahead'>+29</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Dreams</td><td>2025</td><td>2026-06-24</td><td>2026-07-23</td><td class='t-gap'><span class='gap gap-ahead'>+29</span></td><td class='t-tags'>schauburg, cinema, ov sneak</td></tr>
+<tr><td class='t-title'>The Miracle Club</td><td>2023</td><td>2026-11-18</td><td>2026-12-17</td><td class='t-gap'><span class='gap gap-ahead'>+29</span></td><td class='t-tags'>cinema26, original sound, ov sneak, schauburg saal</td></tr>
+<tr><td class='t-title'>Sirāt</td><td>2025</td><td>2025-07-21</td><td>2025-08-14</td><td class='t-gap'><span class='gap gap-ahead'>+24</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>How to Make a Killing</td><td>2024</td><td>2025-10-13</td><td>2025-11-06</td><td class='t-gap'><span class='gap gap-ahead'>+24</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Berlin Hero</td><td>2025</td><td>2025-11-17</td><td>2025-12-11</td><td class='t-gap'><span class='gap gap-ahead'>+24</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>The Little Sister</td><td>2025</td><td>2025-12-01</td><td>2025-12-25</td><td class='t-gap'><span class='gap gap-ahead'>+24</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Bon Voyage, Marie</td><td>2025</td><td>2025-12-08</td><td>2026-01-01</td><td class='t-gap'><span class='gap gap-ahead'>+24</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Rose</td><td>2026</td><td>2026-04-06</td><td>2026-04-30</td><td class='t-gap'><span class='gap gap-ahead'>+24</span></td><td class='t-tags'>schauburg, sneak, cinema</td></tr>
+<tr><td class='t-title'>The Love That Remains</td><td>2025</td><td>2026-05-25</td><td>2026-06-18</td><td class='t-gap'><span class='gap gap-ahead'>+24</span></td><td class='t-tags'>schauburg, cinema, sneak</td></tr>
+<tr><td class='t-title'>Love In Separate Beds</td><td>2025</td><td>2026-07-06</td><td>2026-07-30</td><td class='t-gap'><span class='gap gap-ahead'>+24</span></td><td class='t-tags'>schauburg, cinema, sneak</td></tr>
+<tr><td class='t-title'>Adam's Eight</td><td>2026</td><td>2026-08-24</td><td>2026-09-17</td><td class='t-gap'><span class='gap gap-ahead'>+24</span></td><td class='t-tags'>schauburg, cinema, cinema26, sneak, original sound</td></tr>
+<tr><td class='t-title'>The Incomer</td><td>2026</td><td>2026-11-16</td><td>2026-12-10</td><td class='t-gap'><span class='gap gap-ahead'>+24</span></td><td class='t-tags'>cinema26, german dub, sneak, schauburg saal</td></tr>
+<tr><td class='t-title'>Roofman</td><td>2025</td><td>2025-11-05</td><td>2025-11-27</td><td class='t-gap'><span class='gap gap-ahead'>+22</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Nuremberg</td><td>2025</td><td>2026-04-15</td><td>2026-05-07</td><td class='t-gap'><span class='gap gap-ahead'>+22</span></td><td class='t-tags'>schauburg, ov sneak, cinema, ov</td></tr>
+<tr><td class='t-title'>Sunny Dancer</td><td>2026</td><td>2026-07-22</td><td>2026-08-13</td><td class='t-gap'><span class='gap gap-ahead'>+22</span></td><td class='t-tags'>schauburg, cinema, ov sneak</td></tr>
+<tr><td class='t-title'>Bob Trevino Likes It</td><td>2024</td><td>2026-09-30</td><td>2026-10-22</td><td class='t-gap'><span class='gap gap-ahead'>+22</span></td><td class='t-tags'>cinema26, schauburg, original sound, ov sneak</td></tr>
+<tr><td class='t-title'>#BlackSheep</td><td>2025</td><td>2025-06-30</td><td>2025-07-17</td><td class='t-gap'><span class='gap gap-ahead'>+17</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Oxana</td><td>2024</td><td>2025-07-07</td><td>2025-07-24</td><td class='t-gap'><span class='gap gap-ahead'>+17</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Better Days</td><td>2025</td><td>2025-07-14</td><td>2025-07-31</td><td class='t-gap'><span class='gap gap-ahead'>+17</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Colours of Time</td><td>2025</td><td>2025-07-28</td><td>2025-08-14</td><td class='t-gap'><span class='gap gap-ahead'>+17</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Miroirs No. 3</td><td>2025</td><td>2025-09-01</td><td>2025-09-18</td><td class='t-gap'><span class='gap gap-ahead'>+17</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Anniversary</td><td>2025</td><td>2025-10-20</td><td>2025-11-06</td><td class='t-gap'><span class='gap gap-ahead'>+17</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>The Stranger</td><td>2025</td><td>2025-12-15</td><td>2026-01-01</td><td class='t-gap'><span class='gap gap-ahead'>+17</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>The Blood Countess</td><td>2026</td><td>2026-10-12</td><td>2026-10-29</td><td class='t-gap'><span class='gap gap-ahead'>+17</span></td><td class='t-tags'>schauburg, cinema26, original sound, sneak</td></tr>
+<tr><td class='t-title'>The Life of Chuck</td><td>2024</td><td>2025-07-09</td><td>2025-07-24</td><td class='t-gap'><span class='gap gap-ahead'>+15</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>The Mastermind</td><td>2025</td><td>2025-10-01</td><td>2025-10-16</td><td class='t-gap'><span class='gap gap-ahead'>+15</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>How to Make a Killing</td><td>2026</td><td>2026-03-25</td><td>2026-04-09</td><td class='t-gap'><span class='gap gap-ahead'>+15</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Toy Story 5</td><td>2026</td><td>2026-07-08</td><td>2026-07-23</td><td class='t-gap'><span class='gap gap-ahead'>+15</span></td><td class='t-tags'>schauburg, cinema, ov sneak, topstats, top2026</td></tr>
+<tr><td class='t-title'>The Invite</td><td>2026</td><td>2026-07-15</td><td>2026-07-30</td><td class='t-gap'><span class='gap gap-ahead'>+15</span></td><td class='t-tags'>schauburg, cinema, ov sneak</td></tr>
+<tr><td class='t-title'>One Night Only</td><td>2026</td><td>2026-08-12</td><td>2026-08-27</td><td class='t-gap'><span class='gap gap-ahead'>+15</span></td><td class='t-tags'>schauburg, cinema, ov sneak, original sound</td></tr>
+<tr><td class='t-title'>Christy</td><td>2025</td><td>2026-08-19</td><td>2026-09-03</td><td class='t-gap'><span class='gap gap-ahead'>+15</span></td><td class='t-tags'>schauburg, cinema, ov sneak, original sound</td></tr>
+<tr><td class='t-title'>Bad Apples</td><td>2025</td><td>2026-08-26</td><td>2026-09-10</td><td class='t-gap'><span class='gap gap-ahead'>+15</span></td><td class='t-tags'>schauburg, cinema, cinema26, ov sneak, original sound</td></tr>
+<tr><td class='t-title'>A Talent for Murder</td><td>2026</td><td>2026-10-21</td><td>2026-11-05</td><td class='t-gap'><span class='gap gap-ahead'>+15</span></td><td class='t-tags'>schauburg, cinema26, original sound, ov sneak</td></tr>
+<tr><td class='t-title'>When Fall Is Coming</td><td>2024</td><td>2025-08-18</td><td>2025-08-28</td><td class='t-gap'><span class='gap gap-ahead'>+10</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Zweigstelle</td><td>2025</td><td>2025-09-29</td><td>2025-10-09</td><td class='t-gap'><span class='gap gap-ahead'>+10</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Easy Girl</td><td>2025</td><td>2026-01-05</td><td>2026-01-15</td><td class='t-gap'><span class='gap gap-ahead'>+10</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Cycle of Time</td><td>2025</td><td>2026-01-12</td><td>2026-01-22</td><td class='t-gap'><span class='gap gap-ahead'>+10</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>No Other Choice</td><td>2025</td><td>2026-01-26</td><td>2026-02-05</td><td class='t-gap'><span class='gap gap-ahead'>+10</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Yellow Letters</td><td>2026</td><td>2026-02-23</td><td>2026-03-05</td><td class='t-gap'><span class='gap gap-ahead'>+10</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Let It Rain</td><td>2025</td><td>2026-08-03</td><td>2026-08-13</td><td class='t-gap'><span class='gap gap-ahead'>+10</span></td><td class='t-tags'>schauburg, cinema, sneak, german dub</td></tr>
+<tr><td class='t-title'>A Stroll to Syracuse</td><td>2026</td><td>2026-08-10</td><td>2026-08-20</td><td class='t-gap'><span class='gap gap-ahead'>+10</span></td><td class='t-tags'>schauburg, cinema, sneak, original sound</td></tr>
+<tr><td class='t-title'>Prosecution</td><td>2026</td><td>2026-08-17</td><td>2026-08-27</td><td class='t-gap'><span class='gap gap-ahead'>+10</span></td><td class='t-tags'>schauburg, cinema, sneak, original sound</td></tr>
+<tr><td class='t-title'>How Can I Help</td><td>2026</td><td>2026-09-21</td><td>2026-10-01</td><td class='t-gap'><span class='gap gap-ahead'>+10</span></td><td class='t-tags'>cinema26, schauburg, sneak, original sound</td></tr>
+<tr><td class='t-title'>The Ballad of Wallis Island</td><td>2025</td><td>2025-07-02</td><td>2025-07-10</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Memoir of a Snail</td><td>2024</td><td>2025-07-16</td><td>2025-07-24</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Nobody 2</td><td>2025</td><td>2025-08-13</td><td>2025-08-21</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>The Toxic Avenger</td><td>2023</td><td>2025-09-17</td><td>2025-09-25</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Anemone</td><td>2025</td><td>2025-11-19</td><td>2025-11-27</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Dead of Winter</td><td>2025</td><td>2026-02-11</td><td>2026-02-19</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Marty Supreme</td><td>2025</td><td>2026-02-18</td><td>2026-02-26</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>The North</td><td>2025</td><td>2026-05-13</td><td>2026-05-21</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, ov sneak, cinema</td></tr>
+<tr><td class='t-title'>Virginia Woolf's Night &amp; Day</td><td>2026</td><td>2026-07-01</td><td>2026-07-09</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, cinema, ov sneak</td></tr>
+<tr><td class='t-title'>You, Me &amp; Tuscany</td><td>2026</td><td>2026-07-29</td><td>2026-08-06</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, cinema, ov sneak</td></tr>
+<tr><td class='t-title'>Sense and Sensibility</td><td>2026</td><td>2026-10-07</td><td>2026-10-15</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, cinema26, original sound, ov sneak</td></tr>
+<tr><td class='t-title'>Wildwood</td><td>2026</td><td>2026-10-28</td><td>2026-11-05</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>cinema26, original sound, ov sneak, schauburg saal</td></tr>
+<tr><td class='t-title'>Wild Horse Nine</td><td>2026</td><td>2026-11-04</td><td>2026-11-12</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg saal, ov sneak, original sound</td></tr>
+<tr><td class='t-title'>The Only Living Pickpocket in New York</td><td>2026</td><td>2026-11-11</td><td>2026-11-19</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>cinema26, original sound, schauburg cinema, ov sneak</td></tr>
+<tr><td class='t-title'>Bugonia</td><td>2025</td><td>2025-10-27</td><td>2025-10-30</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>No One Will Know</td><td>2025</td><td>2025-11-03</td><td>2025-11-06</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Die My Love</td><td>2025</td><td>2025-11-10</td><td>2025-11-13</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>The Last Viking</td><td>2025</td><td>2025-12-22</td><td>2025-12-25</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Mr. Putifar's Wacky Plan</td><td>2023</td><td>2026-03-02</td><td>2026-03-05</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Nouvelle Vague</td><td>2025</td><td>2026-03-09</td><td>2026-03-12</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>DJ Ahmet</td><td>2025</td><td>2026-03-16</td><td>2026-03-19</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Blue Moon</td><td>2025</td><td>2026-03-23</td><td>2026-03-26</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>A Private Life</td><td>2025</td><td>2026-04-13</td><td>2026-04-16</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>schauburg, sneak, cinema</td></tr>
+<tr><td class='t-title'>Rosebush Pruning</td><td>2026</td><td>2026-04-20</td><td>2026-04-23</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>schauburg, cinema, sneak</td></tr>
+<tr><td class='t-title'>The Frog and the Water</td><td>2025</td><td>2026-04-27</td><td>2026-04-30</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>schauburg, sneak, cinema</td></tr>
+<tr><td class='t-title'>Spices and Lies</td><td>2025</td><td>2026-06-22</td><td>2026-06-25</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>schauburg, cinema, sneak</td></tr>
+<tr><td class='t-title'>H Is for Hawk</td><td>2025</td><td>2026-07-20</td><td>2026-07-23</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>schauburg, cinema, sneak, german dub</td></tr>
+<tr><td class='t-title'>Bitter Christmas</td><td>2026</td><td>2026-07-27</td><td>2026-07-30</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>schauburg, cinema, sneak, german dub</td></tr>
+<tr><td class='t-title'>Hope</td><td>2026</td><td>2026-10-05</td><td>2026-10-08</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>schauburg, cinema26, german dub, sneak</td></tr>
+<tr><td class='t-title'>Klara and the Sun</td><td>2026</td><td>2026-10-26</td><td>2026-10-29</td><td class='t-gap'><span class='gap gap-ahead'>+3</span></td><td class='t-tags'>cinema26, schauburg saal, german dub, sneak</td></tr>
+<tr><td class='t-title'>Weapons</td><td>2025</td><td>2025-08-06</td><td>2025-08-07</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>The Roses</td><td>2025</td><td>2025-08-27</td><td>2025-08-28</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>One Battle After Another</td><td>2025</td><td>2025-09-24</td><td>2025-09-25</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>HIM</td><td>2025</td><td>2025-11-12</td><td>2025-11-13</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Send Help</td><td>2026</td><td>2026-01-28</td><td>2026-01-29</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Good Luck, Have Fun, Don't Die</td><td>2025</td><td>2026-03-11</td><td>2026-03-12</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>The Devil Wears Prada 2</td><td>2026</td><td>2026-04-29</td><td>2026-04-30</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, ov sneak, cinema</td></tr>
+<tr><td class='t-title'>In the Grey</td><td>2026</td><td>2026-05-20</td><td>2026-05-21</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, ov sneak, cinema</td></tr>
+<tr><td class='t-title'>Savage House</td><td>2026</td><td>2026-06-17</td><td>2026-06-18</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, cinema, ov sneak</td></tr>
+<tr><td class='t-title'>Pressure</td><td>2026</td><td>2026-09-16</td><td>2026-09-17</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, cinema26, original sound, ov sneak</td></tr>
+<tr><td class='t-title'>The Thing with Feathers</td><td>2025</td><td>2026-10-14</td><td>2026-10-15</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, cinema26, original sound, ov sneak</td></tr>
+<tr><td class='t-title'>Normal</td><td>2025</td><td>2026-04-08</td><td>2025-07-24</td><td class='t-gap'><span class='gap gap-late'>-258</span></td><td class='t-tags'>schauburg, ov sneak, cinema, top2026</td></tr>
+<tr><td class='t-title'>Mr. K</td><td>2024</td><td>2025-06-25</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Holy Meat</td><td>2025</td><td>2025-07-30</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Bump</td><td>2022</td><td>2025-08-04</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Happy Holidays</td><td>2024</td><td>2025-08-20</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Silent Friend</td><td>2025</td><td>2026-01-14</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Guru</td><td>2025</td><td>2026-05-04</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, sneak, cinema</td></tr>
+<tr><td class='t-title'>Heel</td><td>2025</td><td>2026-05-06</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, ov sneak, cinema</td></tr>
+<tr><td class='t-title'>Tuner</td><td>2025</td><td>2026-05-27</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, cinema, ov sneak</td></tr>
+<tr><td class='t-title'>Gift Wrapped</td><td>1952</td><td>2026-10-07</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, cinema26, original sound, ov sneak, short before sneak</td></tr></tbody>
+</table></div>
+
+<footer>Generiert von <code>generate_site.py</code> am 2026-11-19.
+  Daten: Letterboxd-Diary (Export vom 2026-11-19), TMDB-Premieredaten.
+  <br>Alle Titel sind © ihrer jeweiligen Rechteinhaber.</footer>
+</div>
+</body>
+</html>
