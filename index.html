@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="de">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,22 +34,18 @@
          align-items:center; }
   .tag-name { font-size:13.5px; overflow:hidden; text-overflow:ellipsis;
               white-space:nowrap; }
-  .tag-bar, .month-bar { background:var(--panel2); border-radius:6px;
-         height:10px; overflow:hidden; }
-  .tag-fill, .month-fill { display:block; height:100%;
+  .tag-bar { background:var(--panel2); border-radius:6px;
+          height:10px; overflow:hidden; }
+  .tag-fill { display:block; height:100%;
          background:linear-gradient(90deg,var(--accent2),var(--accent));
          border-radius:6px; }
-  .tag-count, .month-count { text-align:right; color:var(--muted);
+  .tag-count { text-align:right; color:var(--muted);
          font-size:12.5px; }
   .chips { display:flex; flex-wrap:wrap; gap:8px; }
   .chip { background:var(--panel2); border:1px solid var(--border);
          padding:6px 12px; border-radius:999px; font-size:13.5px; }
   .chip-star { color:#f7b32b; } .chip em { color:var(--muted);
          font-style:normal; font-size:12px; }
-  .months { display:grid; gap:4px; }
-  .month { display:grid; grid-template-columns:70px 1fr 40px; gap:10px;
-         align-items:center; font-size:12.5px; }
-  .month-name, .month-count { color:var(--muted); }
   .year { margin:6px 0 18px; }
   .year-label { text-align:center; color:var(--muted); font-size:13px;
          margin-bottom:4px; letter-spacing:.08em; }
@@ -73,13 +69,13 @@
 <div class="wrap">
 <header>
   <h1>sirconanad<span class="dot">·</span>cinema</h1>
-  <div class="sub">Letterboxd-Highlights · 2026-11-19</div>
+  <div class="sub">Letterboxd highlights · 2026-11-19</div>
 </header>
 
-<h2>Im Überblick</h2>
-<div class="stats"><div class="stat"><div class="stat-value accent">667</div><div class='stat-label'>Filme seit 2024 (3 Jahre)</div></div><div class="stat"><div class="stat-value accent">3.86</div><div class='stat-label'>Ø Bewertung (5-Skala)</div></div><div class="stat"><div class="stat-value accent">246</div><div class='stat-label'>geherzt / geliked</div></div><div class="stat"><div class="stat-value accent">78</div><div class='stat-label'>Rewatches</div></div><div class="stat"><div class="stat-value accent">17.2 Tage</div><div class='stat-label'>Sneak vor Kinostart</div></div><div class="stat"><div class="stat-value accent">117/126</div><div class='stat-label'>Sneaks mit Kinostart</div></div></div>
+<h2>Overview</h2>
+<div class="stats"><div class="stat"><div class="stat-value accent">667</div><div class='stat-label'>Films since 2024 (3 years)</div></div><div class="stat"><div class="stat-value accent">3.86</div><div class='stat-label'>Average rating (5-point scale)</div></div><div class="stat"><div class="stat-value accent">246</div><div class='stat-label'>Liked</div></div><div class="stat"><div class="stat-value accent">78</div><div class='stat-label'>Rewatches</div></div><div class="stat"><div class="stat-value accent">21.2 days</div><div class='stat-label'>Sneak before cinema release</div></div></div>
 
-<h2>Kinotage <small>(Filme pro Tag, pro Jahr)</small></h2>
+<h2>Cinema days <small>(films per day, per year)</small></h2>
 <div class="panel"><div class="year"><div class="year-label">2026</div><svg xmlns="http://www.w3.org/2000/svg" width="679" height="122" viewBox="0 0 679 122">
 <rect width="100%" height="100%" fill="#1f2430"/>
 <text x="12" y="8" font-family="sans-serif" font-size="11" fill="#767676">Jan</text>
@@ -1196,43 +1192,74 @@
 </svg>
 </div></div>
 
-<h2>Monatliche Aktivität</h2>
-<div class="panel"><div class="months"><div class="month"><span class="month-name">2024-01</span><span class="month-bar"><span class="month-fill" style='width:6%'></span></span><span class='month-count'>4</span></div>
-<div class="month"><span class="month-name">2024-03</span><span class="month-bar"><span class="month-fill" style='width:9%'></span></span><span class='month-count'>6</span></div>
-<div class="month"><span class="month-name">2024-04</span><span class="month-bar"><span class="month-fill" style='width:12%'></span></span><span class='month-count'>8</span></div>
-<div class="month"><span class="month-name">2024-05</span><span class="month-bar"><span class="month-fill" style='width:12%'></span></span><span class='month-count'>8</span></div>
-<div class="month"><span class="month-name">2024-06</span><span class="month-bar"><span class="month-fill" style='width:6%'></span></span><span class='month-count'>4</span></div>
-<div class="month"><span class="month-name">2024-07</span><span class="month-bar"><span class="month-fill" style='width:19%'></span></span><span class='month-count'>13</span></div>
-<div class="month"><span class="month-name">2024-08</span><span class="month-bar"><span class="month-fill" style='width:21%'></span></span><span class='month-count'>14</span></div>
-<div class="month"><span class="month-name">2024-09</span><span class="month-bar"><span class="month-fill" style='width:22%'></span></span><span class='month-count'>15</span></div>
-<div class="month"><span class="month-name">2024-10</span><span class="month-bar"><span class="month-fill" style='width:6%'></span></span><span class='month-count'>4</span></div>
-<div class="month"><span class="month-name">2024-11</span><span class="month-bar"><span class="month-fill" style='width:21%'></span></span><span class='month-count'>14</span></div>
-<div class="month"><span class="month-name">2024-12</span><span class="month-bar"><span class="month-fill" style='width:21%'></span></span><span class='month-count'>14</span></div>
-<div class="month"><span class="month-name">2025-01</span><span class="month-bar"><span class="month-fill" style='width:21%'></span></span><span class='month-count'>14</span></div>
-<div class="month"><span class="month-name">2025-02</span><span class="month-bar"><span class="month-fill" style='width:3%'></span></span><span class='month-count'>1</span></div>
-<div class="month"><span class="month-name">2025-03</span><span class="month-bar"><span class="month-fill" style='width:18%'></span></span><span class='month-count'>12</span></div>
-<div class="month"><span class="month-name">2025-04</span><span class="month-bar"><span class="month-fill" style='width:12%'></span></span><span class='month-count'>8</span></div>
-<div class="month"><span class="month-name">2025-05</span><span class="month-bar"><span class="month-fill" style='width:13%'></span></span><span class='month-count'>9</span></div>
-<div class="month"><span class="month-name">2025-06</span><span class="month-bar"><span class="month-fill" style='width:51%'></span></span><span class='month-count'>35</span></div>
-<div class="month"><span class="month-name">2025-07</span><span class="month-bar"><span class="month-fill" style='width:24%'></span></span><span class='month-count'>16</span></div>
-<div class="month"><span class="month-name">2025-08</span><span class="month-bar"><span class="month-fill" style='width:26%'></span></span><span class='month-count'>18</span></div>
-<div class="month"><span class="month-name">2025-09</span><span class="month-bar"><span class="month-fill" style='width:21%'></span></span><span class='month-count'>14</span></div>
-<div class="month"><span class="month-name">2025-10</span><span class="month-bar"><span class="month-fill" style='width:28%'></span></span><span class='month-count'>19</span></div>
-<div class="month"><span class="month-name">2025-11</span><span class="month-bar"><span class="month-fill" style='width:28%'></span></span><span class='month-count'>19</span></div>
-<div class="month"><span class="month-name">2025-12</span><span class="month-bar"><span class="month-fill" style='width:15%'></span></span><span class='month-count'>10</span></div>
-<div class="month"><span class="month-name">2026-01</span><span class="month-bar"><span class="month-fill" style='width:65%'></span></span><span class='month-count'>44</span></div>
-<div class="month"><span class="month-name">2026-02</span><span class="month-bar"><span class="month-fill" style='width:16%'></span></span><span class='month-count'>11</span></div>
-<div class="month"><span class="month-name">2026-03</span><span class="month-bar"><span class="month-fill" style='width:47%'></span></span><span class='month-count'>32</span></div>
-<div class="month"><span class="month-name">2026-04</span><span class="month-bar"><span class="month-fill" style='width:43%'></span></span><span class='month-count'>29</span></div>
-<div class="month"><span class="month-name">2026-05</span><span class="month-bar"><span class="month-fill" style='width:49%'></span></span><span class='month-count'>33</span></div>
-<div class="month"><span class="month-name">2026-06</span><span class="month-bar"><span class="month-fill" style='width:57%'></span></span><span class='month-count'>39</span></div>
-<div class="month"><span class="month-name">2026-07</span><span class="month-bar"><span class="month-fill" style='width:46%'></span></span><span class='month-count'>31</span></div>
-<div class="month"><span class="month-name">2026-08</span><span class="month-bar"><span class="month-fill" style='width:51%'></span></span><span class='month-count'>35</span></div>
-<div class="month"><span class="month-name">2026-09</span><span class="month-bar"><span class="month-fill" style='width:100%'></span></span><span class='month-count'>68</span></div>
-<div class="month"><span class="month-name">2026-10</span><span class="month-bar"><span class="month-fill" style='width:62%'></span></span><span class='month-count'>42</span></div>
-<div class="month"><span class="month-name">2026-11</span><span class="month-bar"><span class="month-fill" style='width:35%'></span></span><span class='month-count'>24</span></div></div></div>
+<h2>Monthly activity <small>(films per month)</small></h2>
+<div class="panel"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240">
+<line x1="44" y1="198.0" x2="982" y2="198.0" stroke="#252b38" stroke-width="1"/>
+<text x="36" y="201.0" font-size="10" fill="#9aa3b2" text-anchor="end">0</text>
+<line x1="44" y1="144.5" x2="982" y2="144.5" stroke="#252b38" stroke-width="1"/>
+<text x="36" y="147.5" font-size="10" fill="#9aa3b2" text-anchor="end">20</text>
+<line x1="44" y1="90.9" x2="982" y2="90.9" stroke="#252b38" stroke-width="1"/>
+<text x="36" y="93.9" font-size="10" fill="#9aa3b2" text-anchor="end">40</text>
+<line x1="44" y1="37.4" x2="982" y2="37.4" stroke="#252b38" stroke-width="1"/>
+<text x="36" y="40.4" font-size="10" fill="#9aa3b2" text-anchor="end">60</text>
+<line x1="44" y1="198.0" x2="982" y2="198.0" stroke="#3a4150" stroke-width="1"/>
+<text x="44.0" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">Jan 2024</text>
+<text x="99.2" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">Mar</text>
+<text x="154.4" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">May</text>
+<text x="209.5" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">Jul</text>
+<text x="264.7" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">Sep</text>
+<text x="319.9" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">Nov</text>
+<text x="375.1" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">Jan 2025</text>
+<text x="430.2" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">Mar</text>
+<text x="485.4" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">May</text>
+<text x="540.6" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">Jul</text>
+<text x="595.8" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">Sep</text>
+<text x="650.9" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">Nov</text>
+<text x="706.1" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">Jan 2026</text>
+<text x="761.3" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">Mar</text>
+<text x="816.5" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">May</text>
+<text x="871.6" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">Jul</text>
+<text x="926.8" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">Sep</text>
+<text x="982.0" y="218" font-size="10" fill="#9aa3b2" text-anchor="middle">Nov</text>
+<polyline points="44.0,187.3 71.6,198.0 99.2,181.9 126.8,176.6 154.4,176.6 181.9,187.3 209.5,163.2 237.1,160.5 264.7,157.9 292.3,187.3 319.9,160.5 347.5,160.5 375.1,160.5 402.6,195.3 430.2,165.9 457.8,176.6 485.4,173.9 513.0,104.3 540.6,155.2 568.2,149.8 595.8,160.5 623.4,147.1 650.9,147.1 678.5,171.2 706.1,80.2 733.7,168.6 761.3,112.4 788.9,120.4 816.5,109.7 844.1,93.6 871.6,115.0 899.2,104.3 926.8,16.0 954.4,85.6 982.0,133.8" fill="none" stroke="#7ee08e" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="44.0" cy="187.3" r="3" fill="#7ee08e"><title>January 2024: 4 films watched</title></circle>
+<circle cx="99.2" cy="181.9" r="3" fill="#7ee08e"><title>March 2024: 6 films watched</title></circle>
+<circle cx="126.8" cy="176.6" r="3" fill="#7ee08e"><title>April 2024: 8 films watched</title></circle>
+<circle cx="154.4" cy="176.6" r="3" fill="#7ee08e"><title>May 2024: 8 films watched</title></circle>
+<circle cx="181.9" cy="187.3" r="3" fill="#7ee08e"><title>June 2024: 4 films watched</title></circle>
+<circle cx="209.5" cy="163.2" r="3" fill="#7ee08e"><title>July 2024: 13 films watched</title></circle>
+<circle cx="237.1" cy="160.5" r="3" fill="#7ee08e"><title>August 2024: 14 films watched</title></circle>
+<circle cx="264.7" cy="157.9" r="3" fill="#7ee08e"><title>September 2024: 15 films watched</title></circle>
+<circle cx="292.3" cy="187.3" r="3" fill="#7ee08e"><title>October 2024: 4 films watched</title></circle>
+<circle cx="319.9" cy="160.5" r="3" fill="#7ee08e"><title>November 2024: 14 films watched</title></circle>
+<circle cx="347.5" cy="160.5" r="3" fill="#7ee08e"><title>December 2024: 14 films watched</title></circle>
+<circle cx="375.1" cy="160.5" r="3" fill="#7ee08e"><title>January 2025: 14 films watched</title></circle>
+<circle cx="402.6" cy="195.3" r="3" fill="#7ee08e"><title>February 2025: 1 film watched</title></circle>
+<circle cx="430.2" cy="165.9" r="3" fill="#7ee08e"><title>March 2025: 12 films watched</title></circle>
+<circle cx="457.8" cy="176.6" r="3" fill="#7ee08e"><title>April 2025: 8 films watched</title></circle>
+<circle cx="485.4" cy="173.9" r="3" fill="#7ee08e"><title>May 2025: 9 films watched</title></circle>
+<circle cx="513.0" cy="104.3" r="3" fill="#7ee08e"><title>June 2025: 35 films watched</title></circle>
+<circle cx="540.6" cy="155.2" r="3" fill="#7ee08e"><title>July 2025: 16 films watched</title></circle>
+<circle cx="568.2" cy="149.8" r="3" fill="#7ee08e"><title>August 2025: 18 films watched</title></circle>
+<circle cx="595.8" cy="160.5" r="3" fill="#7ee08e"><title>September 2025: 14 films watched</title></circle>
+<circle cx="623.4" cy="147.1" r="3" fill="#7ee08e"><title>October 2025: 19 films watched</title></circle>
+<circle cx="650.9" cy="147.1" r="3" fill="#7ee08e"><title>November 2025: 19 films watched</title></circle>
+<circle cx="678.5" cy="171.2" r="3" fill="#7ee08e"><title>December 2025: 10 films watched</title></circle>
+<circle cx="706.1" cy="80.2" r="3" fill="#7ee08e"><title>January 2026: 44 films watched</title></circle>
+<circle cx="733.7" cy="168.6" r="3" fill="#7ee08e"><title>February 2026: 11 films watched</title></circle>
+<circle cx="761.3" cy="112.4" r="3" fill="#7ee08e"><title>March 2026: 32 films watched</title></circle>
+<circle cx="788.9" cy="120.4" r="3" fill="#7ee08e"><title>April 2026: 29 films watched</title></circle>
+<circle cx="816.5" cy="109.7" r="3" fill="#7ee08e"><title>May 2026: 33 films watched</title></circle>
+<circle cx="844.1" cy="93.6" r="3" fill="#7ee08e"><title>June 2026: 39 films watched</title></circle>
+<circle cx="871.6" cy="115.0" r="3" fill="#7ee08e"><title>July 2026: 31 films watched</title></circle>
+<circle cx="899.2" cy="104.3" r="3" fill="#7ee08e"><title>August 2026: 35 films watched</title></circle>
+<circle cx="926.8" cy="16.0" r="3" fill="#7ee08e"><title>September 2026: 68 films watched</title></circle>
+<circle cx="954.4" cy="85.6" r="3" fill="#7ee08e"><title>October 2026: 42 films watched</title></circle>
+<circle cx="982.0" cy="133.8" r="3" fill="#7ee08e"><title>November 2026: 24 films watched</title></circle>
+</svg>
+</div>
 
-<h2>Beliebteste Tags</h2>
+<h2>Most-used tags</h2>
 <div class="panel"><div class="tags"><div class="tag"><span class="tag-name">schauburg</span><span class='tag-bar'><span class='tag-fill' style='width:100%'></span></span><span class='tag-count'>361</span></div>
 <div class="tag"><span class="tag-name">cinema</span><span class='tag-bar'><span class='tag-fill' style='width:41%'></span></span><span class='tag-count'>149</span></div>
 <div class="tag"><span class="tag-name">cinema26</span><span class='tag-bar'><span class='tag-fill' style='width:37%'></span></span><span class='tag-count'>135</span></div>
@@ -1246,33 +1273,37 @@
 <div class="tag"><span class="tag-name">german dub</span><span class='tag-bar'><span class='tag-fill' style='width:11%'></span></span><span class='tag-count'>39</span></div>
 <div class="tag"><span class="tag-name">filmfestival max ophül preis</span><span class='tag-bar'><span class='tag-fill' style='width:10%'></span></span><span class='tag-count'>36</span></div></div></div>
 
-<h2>Favoriten <small>(5★ &amp; herz)</small></h2>
-<div class="panel"><div class="chips"><span class="chip"><span class="chip-star">★</span>Coraline <em>2026-11-14</em></span>
-<span class="chip"><span class="chip-star">★</span>Wildwood <em>2026-11-14</em></span>
-<span class="chip"><span class="chip-star">★</span>Wildwood <em>2026-11-13</em></span>
+<h2>Favourites <small>(5★ &amp; liked)</small></h2>
+<div class="panel"><div class="chips"><span class="chip"><span class="chip-star">★</span>Wildwood ×4 <em>2026-11-14</em></span>
+<span class="chip"><span class="chip-star">★</span>Coraline <em>2026-11-14</em></span>
 <span class="chip"><span class="chip-star">★</span>Alice in the Cities <em>2026-11-10</em></span>
-<span class="chip"><span class="chip-star">★</span>Klara and the Sun <em>2026-11-08</em></span>
-<span class="chip"><span class="chip-star">★</span>Wildwood <em>2026-11-06</em></span>
+<span class="chip"><span class="chip-star">★</span>Klara and the Sun ×2 <em>2026-11-08</em></span>
 <span class="chip"><span class="chip-star">★</span>Wild Horse Nine <em>2026-11-04</em></span>
-<span class="chip"><span class="chip-star">★</span>Wildwood <em>2026-10-31</em></span>
 <span class="chip"><span class="chip-star">★</span>Dirty Dancing <em>2026-10-29</em></span>
-<span class="chip"><span class="chip-star">★</span>Klara and the Sun <em>2026-10-26</em></span>
-<span class="chip"><span class="chip-star">★</span>Toy Story 5 <em>2026-10-25</em></span>
-<span class="chip"><span class="chip-star">★</span>Project Hail Mary <em>2026-10-11</em></span><p class="subtle">… und 72 weitere 5-Sterne-Filme.</p></div></div>
+<span class="chip"><span class="chip-star">★</span>Toy Story 5 ×8 <em>2026-10-25</em></span>
+<span class="chip"><span class="chip-star">★</span>Project Hail Mary <em>2026-10-11</em></span>
+<span class="chip"><span class="chip-star">★</span>Terminator 2: Judgment Day <em>2026-10-11</em></span>
+<span class="chip"><span class="chip-star">★</span>Digger <em>2026-10-06</em></span>
+<span class="chip"><span class="chip-star">★</span>Coyote vs. Acme <em>2026-09-20</em></span>
+<span class="chip"><span class="chip-star">★</span>The Raid <em>2026-09-20</em></span><p class="subtle">… and 54 more five-star films.</p></div></div>
 
-<h2>Sneak / OV-Sneak vs. deutscher Kinostart <small>(126 Einträge, Ø 17.2 Tage vorher)</small></h2>
+<h2>Sneak / OV-sneak vs. German cinema release <small>(126 entries, on average 21.2 days early)</small></h2>
 <div class="scroll"><table>
-  <thead><tr><th>Film</th><th>Jahr</th><th>Gesehen</th>
-  <th>Kinostart (DE)</th><th class="t-gap">Gap</th><th>Tags</th></tr></thead>
+  <thead><tr><th>Film</th><th>Year</th><th>Watched</th>
+  <th>Cinema release (DE)</th><th class="t-gap">Gap</th><th>Tags</th></tr></thead>
   <tbody><tr><td class='t-title'>OZI: Voice of the Forest</td><td>2023</td><td>2025-10-08</td><td>2026-04-16</td><td class='t-gap'><span class='gap gap-ahead'>+190</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Holy Meat</td><td>2025</td><td>2025-07-30</td><td>2026-01-01</td><td class='t-gap'><span class='gap gap-ahead'>+155</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>Jane Austen Wrecked My Life</td><td>2024</td><td>2025-08-25</td><td>2025-10-16</td><td class='t-gap'><span class='gap gap-ahead'>+52</span></td><td class='t-tags'>schauburg, sneak</td></tr>
 <tr><td class='t-title'>Hear Me: Our Summer</td><td>2024</td><td>2026-02-16</td><td>2026-04-09</td><td class='t-gap'><span class='gap gap-ahead'>+52</span></td><td class='t-tags'>best of cinema, sneak</td></tr>
+<tr><td class='t-title'>Mr. K</td><td>2024</td><td>2025-06-25</td><td>2025-08-14</td><td class='t-gap'><span class='gap gap-ahead'>+50</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>Dracula</td><td>2025</td><td>2025-09-15</td><td>2025-10-30</td><td class='t-gap'><span class='gap gap-ahead'>+45</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Guru</td><td>2025</td><td>2026-05-04</td><td>2026-06-18</td><td class='t-gap'><span class='gap gap-ahead'>+45</span></td><td class='t-tags'>schauburg, sneak, cinema</td></tr>
 <tr><td class='t-title'>A Brief Affair</td><td>2025</td><td>2026-05-18</td><td>2026-07-02</td><td class='t-gap'><span class='gap gap-ahead'>+45</span></td><td class='t-tags'>schauburg, sneak, cinema</td></tr>
 <tr><td class='t-title'>Dust Bunny</td><td>2025</td><td>2026-01-07</td><td>2026-02-19</td><td class='t-gap'><span class='gap gap-ahead'>+43</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>American Sweatshop</td><td>2025</td><td>2026-03-18</td><td>2026-04-30</td><td class='t-gap'><span class='gap gap-ahead'>+43</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>Palestine 36</td><td>2025</td><td>2026-04-01</td><td>2026-05-14</td><td class='t-gap'><span class='gap gap-ahead'>+43</span></td><td class='t-tags'>schauburg, ov sneak, cinema</td></tr>
 <tr><td class='t-title'>Rave On</td><td>2025</td><td>2025-06-23</td><td>2025-07-31</td><td class='t-gap'><span class='gap gap-ahead'>+38</span></td><td class='t-tags'>schauburg, sneak</td></tr>
+<tr><td class='t-title'>Bump</td><td>2022</td><td>2025-08-04</td><td>2025-09-11</td><td class='t-gap'><span class='gap gap-ahead'>+38</span></td><td class='t-tags'>schauburg, sneak</td></tr>
 <tr><td class='t-title'>Kill the Jockey</td><td>2024</td><td>2025-08-11</td><td>2025-09-18</td><td class='t-gap'><span class='gap gap-ahead'>+38</span></td><td class='t-tags'>schauburg, sneak</td></tr>
 <tr><td class='t-title'>Present Perfect</td><td>2024</td><td>2025-10-06</td><td>2025-11-13</td><td class='t-gap'><span class='gap gap-ahead'>+38</span></td><td class='t-tags'>schauburg, sneak</td></tr>
 <tr><td class='t-title'>Second Victims</td><td>2025</td><td>2026-03-30</td><td>2026-05-07</td><td class='t-gap'><span class='gap gap-ahead'>+38</span></td><td class='t-tags'>schauburg, sneak</td></tr>
@@ -1286,6 +1317,7 @@
 <tr><td class='t-title'>Lesbian Space Princess</td><td>2025</td><td>2025-12-17</td><td>2026-01-22</td><td class='t-gap'><span class='gap gap-ahead'>+36</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>The History of Sound</td><td>2025</td><td>2026-03-04</td><td>2026-04-09</td><td class='t-gap'><span class='gap gap-ahead'>+36</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>I Swear</td><td>2025</td><td>2026-04-22</td><td>2026-05-28</td><td class='t-gap'><span class='gap gap-ahead'>+36</span></td><td class='t-tags'>schauburg, ov sneak, cinema</td></tr>
+<tr><td class='t-title'>Tuner</td><td>2025</td><td>2026-05-27</td><td>2026-07-02</td><td class='t-gap'><span class='gap gap-ahead'>+36</span></td><td class='t-tags'>schauburg, cinema, ov sneak</td></tr>
 <tr><td class='t-title'>LifeHack</td><td>2025</td><td>2026-08-05</td><td>2026-09-10</td><td class='t-gap'><span class='gap gap-ahead'>+36</span></td><td class='t-tags'>schauburg, cinema, ov sneak</td></tr>
 <tr><td class='t-title'>Bubbles</td><td>2025</td><td>2025-09-22</td><td>2025-10-23</td><td class='t-gap'><span class='gap gap-ahead'>+31</span></td><td class='t-tags'>schauburg, sneak</td></tr>
 <tr><td class='t-title'>The Money Maker</td><td>2025</td><td>2026-06-29</td><td>2026-07-30</td><td class='t-gap'><span class='gap gap-ahead'>+31</span></td><td class='t-tags'>schauburg, cinema, sneak, german dub</td></tr>
@@ -1296,6 +1328,7 @@
 <tr><td class='t-title'>Eddington</td><td>2025</td><td>2025-10-22</td><td>2025-11-20</td><td class='t-gap'><span class='gap gap-ahead'>+29</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>Song Sung Blue</td><td>2025</td><td>2025-12-10</td><td>2026-01-08</td><td class='t-gap'><span class='gap gap-ahead'>+29</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>Pillion</td><td>2025</td><td>2026-02-25</td><td>2026-03-26</td><td class='t-gap'><span class='gap gap-ahead'>+29</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Heel</td><td>2025</td><td>2026-05-06</td><td>2026-06-04</td><td class='t-gap'><span class='gap gap-ahead'>+29</span></td><td class='t-tags'>schauburg, ov sneak, cinema</td></tr>
 <tr><td class='t-title'>Dreams</td><td>2025</td><td>2026-06-24</td><td>2026-07-23</td><td class='t-gap'><span class='gap gap-ahead'>+29</span></td><td class='t-tags'>schauburg, cinema, ov sneak</td></tr>
 <tr><td class='t-title'>The Miracle Club</td><td>2023</td><td>2026-11-18</td><td>2026-12-17</td><td class='t-gap'><span class='gap gap-ahead'>+29</span></td><td class='t-tags'>cinema26, original sound, ov sneak, schauburg saal</td></tr>
 <tr><td class='t-title'>Sirāt</td><td>2025</td><td>2025-07-21</td><td>2025-08-14</td><td class='t-gap'><span class='gap gap-ahead'>+24</span></td><td class='t-tags'>schauburg, sneak</td></tr>
@@ -1321,6 +1354,7 @@
 <tr><td class='t-title'>The Stranger</td><td>2025</td><td>2025-12-15</td><td>2026-01-01</td><td class='t-gap'><span class='gap gap-ahead'>+17</span></td><td class='t-tags'>schauburg, sneak</td></tr>
 <tr><td class='t-title'>The Blood Countess</td><td>2026</td><td>2026-10-12</td><td>2026-10-29</td><td class='t-gap'><span class='gap gap-ahead'>+17</span></td><td class='t-tags'>schauburg, cinema26, original sound, sneak</td></tr>
 <tr><td class='t-title'>The Life of Chuck</td><td>2024</td><td>2025-07-09</td><td>2025-07-24</td><td class='t-gap'><span class='gap gap-ahead'>+15</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Happy Holidays</td><td>2024</td><td>2025-08-20</td><td>2025-09-04</td><td class='t-gap'><span class='gap gap-ahead'>+15</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>The Mastermind</td><td>2025</td><td>2025-10-01</td><td>2025-10-16</td><td class='t-gap'><span class='gap gap-ahead'>+15</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>How to Make a Killing</td><td>2026</td><td>2026-03-25</td><td>2026-04-09</td><td class='t-gap'><span class='gap gap-ahead'>+15</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>Toy Story 5</td><td>2026</td><td>2026-07-08</td><td>2026-07-23</td><td class='t-gap'><span class='gap gap-ahead'>+15</span></td><td class='t-tags'>schauburg, cinema, ov sneak, topstats, top2026</td></tr>
@@ -1346,6 +1380,7 @@
 <tr><td class='t-title'>Anemone</td><td>2025</td><td>2025-11-19</td><td>2025-11-27</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>Dead of Winter</td><td>2025</td><td>2026-02-11</td><td>2026-02-19</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>Marty Supreme</td><td>2025</td><td>2026-02-18</td><td>2026-02-26</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Normal</td><td>2025</td><td>2026-04-08</td><td>2026-04-16</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, ov sneak, cinema, top2026</td></tr>
 <tr><td class='t-title'>The North</td><td>2025</td><td>2026-05-13</td><td>2026-05-21</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, ov sneak, cinema</td></tr>
 <tr><td class='t-title'>Virginia Woolf's Night &amp; Day</td><td>2026</td><td>2026-07-01</td><td>2026-07-09</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, cinema, ov sneak</td></tr>
 <tr><td class='t-title'>You, Me &amp; Tuscany</td><td>2026</td><td>2026-07-29</td><td>2026-08-06</td><td class='t-gap'><span class='gap gap-ahead'>+8</span></td><td class='t-tags'>schauburg, cinema, ov sneak</td></tr>
@@ -1373,6 +1408,7 @@
 <tr><td class='t-title'>The Roses</td><td>2025</td><td>2025-08-27</td><td>2025-08-28</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>One Battle After Another</td><td>2025</td><td>2025-09-24</td><td>2025-09-25</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>HIM</td><td>2025</td><td>2025-11-12</td><td>2025-11-13</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
+<tr><td class='t-title'>Silent Friend</td><td>2025</td><td>2026-01-14</td><td>2026-01-15</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>Send Help</td><td>2026</td><td>2026-01-28</td><td>2026-01-29</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>Good Luck, Have Fun, Don't Die</td><td>2025</td><td>2026-03-11</td><td>2026-03-12</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
 <tr><td class='t-title'>The Devil Wears Prada 2</td><td>2026</td><td>2026-04-29</td><td>2026-04-30</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, ov sneak, cinema</td></tr>
@@ -1380,21 +1416,13 @@
 <tr><td class='t-title'>Savage House</td><td>2026</td><td>2026-06-17</td><td>2026-06-18</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, cinema, ov sneak</td></tr>
 <tr><td class='t-title'>Pressure</td><td>2026</td><td>2026-09-16</td><td>2026-09-17</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, cinema26, original sound, ov sneak</td></tr>
 <tr><td class='t-title'>The Thing with Feathers</td><td>2025</td><td>2026-10-14</td><td>2026-10-15</td><td class='t-gap'><span class='gap gap-ahead'>+1</span></td><td class='t-tags'>schauburg, cinema26, original sound, ov sneak</td></tr>
-<tr><td class='t-title'>Normal</td><td>2025</td><td>2026-04-08</td><td>2025-07-24</td><td class='t-gap'><span class='gap gap-late'>-258</span></td><td class='t-tags'>schauburg, ov sneak, cinema, top2026</td></tr>
-<tr><td class='t-title'>Mr. K</td><td>2024</td><td>2025-06-25</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
-<tr><td class='t-title'>Holy Meat</td><td>2025</td><td>2025-07-30</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
-<tr><td class='t-title'>Bump</td><td>2022</td><td>2025-08-04</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, sneak</td></tr>
-<tr><td class='t-title'>Happy Holidays</td><td>2024</td><td>2025-08-20</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
-<tr><td class='t-title'>Silent Friend</td><td>2025</td><td>2026-01-14</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, ov sneak</td></tr>
-<tr><td class='t-title'>Guru</td><td>2025</td><td>2026-05-04</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, sneak, cinema</td></tr>
-<tr><td class='t-title'>Heel</td><td>2025</td><td>2026-05-06</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, ov sneak, cinema</td></tr>
-<tr><td class='t-title'>Tuner</td><td>2025</td><td>2026-05-27</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, cinema, ov sneak</td></tr>
 <tr><td class='t-title'>Gift Wrapped</td><td>1952</td><td>2026-10-07</td><td>–</td><td class='t-gap'><span class='gap-grey'>n/a</span></td><td class='t-tags'>schauburg, cinema26, original sound, ov sneak, short before sneak</td></tr></tbody>
 </table></div>
 
-<footer>Generiert von <code>generate_site.py</code> am 2026-11-19.
-  Daten: Letterboxd-Diary (Export vom 2026-11-19), TMDB-Premieredaten.
-  <br>Alle Titel sind © ihrer jeweiligen Rechteinhaber.</footer>
+<footer>Generated by <code>generate_site.py</code> on 2026-11-19.
+  Data: Letterboxd diary (export from 2026-11-19), TMDB premiere dates.
+  <br>All titles are © their respective copyright holders.</footer>
+
 </div>
 </body>
 </html>
